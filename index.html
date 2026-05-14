@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)file:///C:/Users/image/Downloads/index_8.html -->
+<!-- saved from url=(0045)file:///C:/Users/image/Downloads/index_9.html -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -161,7 +161,7 @@
   </div></div></div>
 <div id="modal"></div>
 
-<script src="./index_files/supabase-js@2"></script>
+<script src="./index_files/supabase.js.descargar"></script>
 <script>
 // ================== LOGOS ==================
 const LOGO_WHITE_URL = null;
@@ -172,7 +172,7 @@ const BRAND={primary:"#1b2877",secondary:"#254671",light:"#9fadbc",accent:"#edcc
 // ============ SUPABASE CONFIG ============
 const SUPABASE_URL = 'https://zjticidyirudtwpwoyrx.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqdGljaWR5aXJ1ZHR3cHdveXJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczOTY4OTYsImV4cCI6MjA5Mjk3Mjg5Nn0.jVEizM9ss801cZNCSvfRwNbdYyeGqlXa-84BTVO1b8M';
-const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ============ DB HELPERS ============
 async function dbGetProcesses(){
@@ -544,6 +544,10 @@ function renderCover(){
 function doCoverLogin(){
   const u=(document.getElementById("coverUser")||{}).value?.trim()||"";
   const p=(document.getElementById("coverPass")||{}).value||"";
+  if(USERS.length===0){
+    state.loginError="Cargando usuarios, espera un momento e intenta de nuevo...";
+    render();return;
+  }
   const found=USERS.find(a=>a.user===u&&a.pass===p);
   if(found){
     state.currentUser={name:found.name,role:found.role,isAdmin:!!found.isAdmin,areaIds:found.areaIds||null};
@@ -1393,6 +1397,7 @@ async function deleteProcess(id){
 async function doLogin(){
   const u=document.getElementById("loginUser").value.trim();
   const p=document.getElementById("loginPass").value;
+  if(USERS.length===0){state.loginError="Cargando usuarios, espera un momento...";render();return;}
   const found=USERS.find(a=>a.user===u&&a.pass===p);
   if(found){
     state.currentUser={name:found.name,role:found.role,isAdmin:!!found.isAdmin,areaIds:found.areaIds||null};
