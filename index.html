@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///C:/Users/image/Downloads/index_7.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual de Procesos - IMAGEM</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--p:#1b2877;--s:#254671;--l:#9fadbc;--a:#edcc2a;--pl:#E8EAF4;--pd:#111A50;--bg:#f7f7f5;--su:#fff;--su2:#f1efe8;--t:#2c2c2a;--t2:#5f5e5a;--t3:#888780;--b:rgba(0,0,0,0.12);--b2:rgba(0,0,0,0.22);--d:#C62828;--dl:#FDECEA;--dd:#8B1919;--ok:#2E7D32;--okl:#E8F5E9}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--t);line-height:1.5;min-height:100vh}
+  .ctr{max-width:920px;margin:0 auto;padding:20px 16px 40px}
+  .ab{display:flex;justify-content:space-between;align-items:center;background:var(--su2);border:.5px solid var(--b);border-radius:8px;padding:7px 12px;margin-bottom:14px;font-size:12px;flex-wrap:wrap;gap:8px}
+  .ab.ad{background:var(--pl);border-color:var(--p)}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--t3);display:inline-block;margin-right:8px}
+  .ab.ad .dot{background:var(--p)}
+  .card{background:var(--su);border:.5px solid var(--b);border-radius:12px;padding:14px 16px}
+  .btn{background:transparent;border:.5px solid var(--b2);border-radius:8px;padding:7px 16px;font-size:13px;cursor:pointer;color:var(--t);font-family:inherit;transition:.15s}
+  .btn:hover{background:var(--su2)}
+  .bp{background:var(--p);color:#fff;border:none}
+  .bp:hover{background:var(--pd)}
+  .ba{background:var(--a);color:var(--pd);border:none;font-weight:500}
+  .ba:hover{filter:brightness(.95)}
+  .bs{padding:4px 10px;font-size:12px}
+  .bd{color:var(--d);border-color:#F5B7B1;padding:4px 10px;font-size:12px;background:transparent;border-radius:8px;border-style:solid;border-width:.5px;cursor:pointer;font-family:inherit}
+  .bds{background:var(--d);color:#fff;border:none;padding:7px 14px;font-size:13px;cursor:pointer;font-family:inherit;border-radius:8px}
+  .bds:hover{background:var(--dd)}
+  input,textarea,select{width:100%;font-size:13px;padding:7px 10px;border-radius:8px;border:.5px solid var(--b2);background:var(--su);color:var(--t);margin-bottom:8px;font-family:inherit;box-sizing:border-box}
+  input:focus,textarea:focus,select:focus{outline:2px solid var(--p);outline-offset:-1px}
+  textarea{min-height:64px;resize:vertical}
+  .lbl{font-size:11px;font-weight:500;letter-spacing:.05em;margin-bottom:6px}
+  .hero{background:var(--p);border-radius:12px;padding:44px 24px 36px;margin-bottom:20px;position:relative;overflow:hidden}
+  .hd1{position:absolute;top:-30px;right:-30px;width:160px;height:160px;border-radius:50%;background:var(--a);opacity:.15}
+  .hd2{position:absolute;bottom:-50px;left:60px;width:180px;height:180px;border-radius:50%;background:var(--l);opacity:.1}
+  .hlw{display:flex;justify-content:center;align-items:center;margin-bottom:30px;position:relative;width:100%}
+  .ht{color:#fff;font-size:26px;font-weight:500;margin-bottom:8px;text-align:center;position:relative}
+  .hs{color:rgba(255,255,255,.75);font-size:13px;text-align:center;position:relative}
+  .hl{height:3px;width:70px;background:var(--a);border-radius:2px;margin:16px auto 0;position:relative}
+  .lw{width:100%;max-width:420px;height:auto;display:block}
+  .lc{width:100%;max-width:220px;height:auto;display:block}
+  .lm{width:100px;height:auto;display:block}
+  .logo-frame-white{display:block;padding:20px 30px;background:rgba(255,255,255,0.06);border:2px solid rgba(255,255,255,0.4);border-radius:14px;box-shadow:0 4px 20px rgba(0,0,0,0.15);max-width:480px;width:90%;margin:0 auto;box-sizing:border-box}
+  .ag{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:20px}
+  .ac{cursor:pointer;text-align:center;padding:20px 12px;transition:.15s;background:var(--su);border:.5px solid var(--b);border-radius:12px}
+  .ac:hover{transform:translateY(-2px)}
+  .ai{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 10px;font-size:18px;font-weight:500}
+  .xg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:20px}
+  .xc{cursor:pointer;padding:16px 18px;background:var(--su);border:.5px solid var(--b);border-radius:12px;display:flex;align-items:center;gap:14px;transition:.15s}
+  .xc:hover{border-color:var(--p)}
+  .xi{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px}
+  .sl{font-size:11px;font-weight:500;color:var(--t2);letter-spacing:.05em;margin-bottom:12px;text-transform:uppercase}
+  .abn{border-radius:12px;padding:18px 20px;margin-bottom:16px;border-left:4px solid var(--a);color:#fff;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+  .mh{display:flex;align-items:center;gap:10px;padding:4px 4px 14px}
+  .ml{flex:1;height:1px;background:var(--b)}
+  .pi{cursor:pointer;display:flex;align-items:center;gap:14px;background:var(--su);border:.5px solid var(--b);border-radius:12px;padding:14px 16px;transition:.15s}
+  .pi:hover{border-color:var(--p)}
+  .pic{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .st{font-size:11px;background:var(--pl);color:var(--p);border-radius:20px;padding:2px 8px}
+  .fh{border-radius:12px;padding:16px 20px;margin-bottom:14px;border-left:4px solid var(--a);color:#fff}
+  .fhr{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap}
+  .ach{background:rgba(255,255,255,.2);color:#fff;font-size:11px;padding:2px 10px;border-radius:20px;display:inline-block;margin-right:4px;margin-top:3px}
+  .fg{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+  @media(max-width:600px){.fg{grid-template-columns:1fr}}
+  .cc{background:var(--dl);border:1px solid rgba(198,40,40,.25);border-radius:12px;padding:14px 16px;margin-bottom:12px}
+  .ci{background:#FFF;border-radius:8px;padding:9px 12px;margin-bottom:7px;border-left:4px solid var(--d);font-size:13px;color:var(--dd);line-height:1.4;display:flex;gap:9px;align-items:flex-start}
+  .ci:last-child{margin-bottom:0}
+  .cii{color:var(--d);font-weight:700;flex-shrink:0}
+  .dc{background:var(--pl);color:var(--p);font-size:12px;padding:4px 12px;border-radius:20px;display:inline-flex;align-items:center;gap:6px;margin-right:6px;margin-bottom:6px}
+  .dc .rm{cursor:pointer}
+  .mi{display:flex;align-items:center;gap:10px;background:var(--su2);border-radius:8px;padding:8px 12px;margin-bottom:7px}
+  .mi a{font-size:11px;color:var(--p);word-break:break-all;text-decoration:none}
+  .mi a:hover{text-decoration:underline}
+  .nr{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:8px;flex-wrap:wrap}
+  .hi{display:flex;gap:14px;padding:14px 18px;border-bottom:.5px solid var(--b)}
+  .hi:last-child{border-bottom:none}
+  .av{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px;font-weight:500}
+  .ha{font-size:11px;padding:2px 8px;border-radius:20px;display:inline-block}
+  .lcd{max-width:380px;margin:20px auto;padding:28px}
+  .lic{width:44px;height:44px;border-radius:10px;background:var(--pl);display:inline-flex;align-items:center;justify-content:center;margin-bottom:12px;font-size:20px}
+  .ab2{padding:5px 12px;font-size:12px;border-radius:8px;border:.5px solid var(--b2);cursor:pointer;background:transparent;color:var(--t);font-family:inherit}
+  .ab2.sel{color:#fff;border:none;font-weight:500}
+  .pc{background:var(--su);border:.5px solid var(--b);border-radius:12px;padding:14px 16px;margin-bottom:8px}
+  .pp{border-left:4px solid var(--a)}
+  .pa{border-left:4px solid var(--ok);background:var(--okl)}
+  .pr{border-left:4px solid var(--d);opacity:.85}
+  .sp{font-size:10px;padding:2px 8px;border-radius:20px;font-weight:500}
+  .spp{background:var(--a);color:var(--pd)}
+  .spa{background:var(--ok);color:#fff}
+  .spr{background:var(--d);color:#fff}
+  .ms{display:flex;gap:14px;padding:14px 0;border-bottom:.5px solid var(--b)}
+  .ms:last-child{border-bottom:none}
+  .msn{width:32px;height:32px;border-radius:50%;background:var(--p);color:#fff;font-size:14px;font-weight:500;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .ft{text-align:center;margin-top:24px;padding-top:16px;border-top:.5px solid var(--b);font-size:11px;color:var(--t2)}
+  h1,h2,h3{font-weight:500}
+  .mb{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px}
+  .md{background:var(--su);border-radius:12px;padding:24px;max-width:440px;width:100%;max-height:85vh;overflow-y:auto}
+  .dsi{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:8px;cursor:pointer;transition:.15s}
+  .dsi:hover{background:var(--su2)}
+  .chk{width:18px;height:18px;border-radius:4px;border:1.5px solid var(--b2);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .chk.on{background:var(--p);border-color:var(--p);color:#fff}
+  .pb{display:inline-block;background:var(--a);color:var(--pd);font-size:10px;font-weight:500;padding:2px 8px;border-radius:20px;margin-left:6px;vertical-align:middle}
+  /* Flow nodes */
+  .flow{display:flex;flex-direction:column;gap:0;padding:4px 0}
+  .node{display:flex;gap:12px;align-items:flex-start;padding:8px 0;position:relative}
+  .ncol{position:relative;display:flex;flex-direction:column;align-items:center;flex-shrink:0;min-width:36px}
+  .nn{width:32px;height:32px;border-radius:50%;color:#fff;font-size:12px;font-weight:500;display:flex;align-items:center;justify-content:center;z-index:2;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.05)}
+  .nd{width:36px;height:36px;transform:rotate(45deg);display:flex;align-items:center;justify-content:center;z-index:2;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.05)}
+  .nd span{transform:rotate(-45deg);color:#fff;font-size:10px;font-weight:600}
+  .ne{width:32px;height:32px;border-radius:50%;border:2px solid;background:#fff;display:flex;align-items:center;justify-content:center;z-index:2;font-size:10px;font-weight:600}
+  .line{position:absolute;top:32px;bottom:-8px;left:50%;width:2px;transform:translateX(-50%);z-index:1}
+  .ncn{flex:1;padding-top:3px;min-width:0}
+  .al{font-size:10px;font-weight:500;padding:1px 7px;border-radius:20px;display:inline-block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.03em}
+  .role-tag{font-size:10px;color:var(--t2);margin-left:6px;font-style:italic}
+  .tb{display:inline-flex;align-items:center;gap:4px;font-size:10px;padding:2px 8px;border-radius:20px;margin-bottom:6px;background:var(--a);color:var(--pd);font-weight:500}
+  .branches{display:flex;gap:12px;margin-top:8px;flex-wrap:wrap}
+  .branch{flex:1;min-width:200px;background:var(--su2);border-radius:8px;padding:10px 12px;border-left:3px solid;cursor:pointer;transition:.15s}
+  .branch:hover{background:#e9e7e0;transform:translateX(2px)}
+  .branch-interactive{display:flex;justify-content:space-between;align-items:center}
+  .branch-arrow{font-size:16px;opacity:.5}
+  .bh{font-size:11px;font-weight:600;margin-bottom:4px;letter-spacing:.03em}
+  .bt{font-size:12px;color:var(--t2);line-height:1.4}
+  .edit-node{display:flex;gap:8px;align-items:flex-start;padding:10px;border:.5px solid var(--b);border-radius:8px;background:var(--su2);margin-bottom:10px}
+  .move-btns{display:flex;flex-direction:column;gap:4px;flex-shrink:0}
+  .move-btn{width:24px;height:20px;background:var(--su);border:.5px solid var(--b);border-radius:4px;cursor:pointer;font-size:10px;padding:0;display:flex;align-items:center;justify-content:center}
+  .move-btn:hover{background:var(--pl);border-color:var(--p)}
+  .move-btn:disabled{opacity:.3;cursor:not-allowed}
+  .branch-selector{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .branch-chip{padding:8px 14px;border-radius:20px;cursor:pointer;font-size:13px;border:1.5px solid var(--b2);background:var(--su);transition:.15s}
+  .branch-chip.active{background:var(--p);color:#fff;border-color:var(--p);font-weight:500}
+  .branch-chip:hover:not(.active){border-color:var(--p)}
+  .doc-with-area{display:flex;gap:8px;align-items:center;background:var(--su2);border-radius:8px;padding:8px 12px;margin-bottom:6px}
+  .doc-area-tag{font-size:10px;padding:1px 7px;border-radius:20px;text-transform:uppercase;letter-spacing:.03em;flex-shrink:0}
+  .doc-file-link{font-size:11px;color:var(--p);text-decoration:none;display:inline-flex;align-items:center;gap:4px}
+  .doc-file-link:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="ctr"><div id="app"><div style="min-height:100vh;background:var(--p);display:flex;align-items:center;justify-content:center;padding:20px;">
+    <div style="max-width:400px;width:100%;text-align:center;">
+      <div style="margin-bottom:32px;"><div class="logo-frame-white"><svg class="lw" viewBox="0 0 700 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <!-- Óvalo exterior -->
+    <ellipse cx="350" cy="150" rx="320" ry="130" stroke="#fff" stroke-width="18" fill="none"></ellipse>
+    <!-- Letra I con serifas -->
+    <rect x="172" y="30" width="56" height="14" fill="#fff"></rect>
+    <rect x="192" y="30" width="16" height="240" fill="#fff"></rect>
+    <rect x="172" y="256" width="56" height="14" fill="#fff"></rect>
+    <!-- Texto MAGEM -->
+    <text x="248" y="198" font-family="Arial Black, Arial, sans-serif" font-size="120" font-weight="900" fill="#fff" letter-spacing="2">MAGEM</text>
+  </svg></div></div>
+      <h1 style="color:#fff;font-size:24px;font-weight:500;margin-bottom:8px;">Manual de Procesos</h1>
+      <p style="color:rgba(255,255,255,.7);font-size:13px;margin-bottom:32px;">Accede con tus credenciales de área o como administrador</p>
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:28px;">
+        <p style="color:rgba(255,255,255,.6);font-size:11px;font-weight:500;letter-spacing:.08em;margin-bottom:6px;">USUARIO</p>
+        <input type="text" id="coverUser" placeholder="Ingresa tu usuario" onkeydown="if(event.key===&#39;Enter&#39;)doCoverLogin()" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;margin-bottom:14px;" autocomplete="username">
+        <p style="color:rgba(255,255,255,.6);font-size:11px;font-weight:500;letter-spacing:.08em;margin-bottom:6px;">CONTRASEÑA</p>
+        <input type="password" id="coverPass" placeholder="Ingresa tu contraseña" onkeydown="if(event.key===&#39;Enter&#39;)doCoverLogin()" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;margin-bottom:4px;" autocomplete="current-password">
+        <div style="height:14px;margin-bottom:4px;"></div>
+        <button onclick="doCoverLogin()" style="width:100%;padding:11px;background:var(--a);color:var(--pd);border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;">Ingresar →</button>
+      </div>
+      <p style="color:rgba(255,255,255,.35);font-size:11px;margin-top:20px;">© IMAGEM · Acceso restringido a personal autorizado</p>
+    </div>
+  </div></div></div>
+<div id="modal"></div>
+
+<script src="./index_files/supabase-js@2"></script>
+<script>
+// ================== LOGOS ==================
+const LOGO_WHITE_URL = null;
+const LOGO_COLOR_URL = null;
+
+const BRAND={primary:"#1b2877",secondary:"#254671",light:"#9fadbc",accent:"#edcc2a",primaryLight:"#E8EAF4",primaryDark:"#111A50"};
+
+// ============ SUPABASE CONFIG ============
+const SUPABASE_URL = 'https://zjticidyirudtwpwoyrx.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqdGljaWR5aXJ1ZHR3cHdveXJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczOTY4OTYsImV4cCI6MjA5Mjk3Mjg5Nn0.jVEizM9ss801cZNCSvfRwNbdYyeGqlXa-84BTVO1b8M';
+const sb = (supabase.createClient||window.supabase?.createClient)(SUPABASE_URL, SUPABASE_KEY);
+
+// ============ DB HELPERS ============
+async function dbGetProcesses(){
+  const {data,error}=await sb.from('processes').select('*');
+  if(error){console.error('Error cargando procesos:',error);return[];}
+  return (data||[]).map(r=>r.data);
+}
+async function dbSaveProcess(p){
+  const {error}=await sb.from('processes').upsert({id:p.id,data:p},{onConflict:'id'});
+  if(error)console.error('Error guardando proceso:',error);
+}
+async function dbDeleteProcess(id){
+  const {error}=await sb.from('processes').delete().eq('id',id);
+  if(error)console.error('Error eliminando proceso:',error);
+}
+async function dbGetProposals(){
+  const {data,error}=await sb.from('proposals').select('*').order('created_at',{ascending:false});
+  if(error){console.error('Error cargando propuestas:',error);return[];}
+  return (data||[]).map(r=>r.data);
+}
+async function dbSaveProposal(p){
+  const {error}=await sb.from('proposals').upsert({id:p.id,data:p},{onConflict:'id'});
+  if(error)console.error('Error guardando propuesta:',error);
+}
+async function dbGetAreas(){
+  const {data,error}=await sb.from('areas').select('*').order('position');
+  if(error){console.error('Error cargando áreas:',error);return[];}
+  return (data||[]).map(r=>r.data);
+}
+async function dbSaveArea(a,position){
+  const {error}=await sb.from('areas').upsert({id:a.id,data:a,position:position??99},{onConflict:'id'});
+  if(error)console.error('Error guardando área:',error);
+}
+async function dbDeleteArea(id){
+  const {error}=await sb.from('areas').delete().eq('id',id);
+  if(error)console.error('Error eliminando área:',error);
+}
+async function dbGetCatalog(){
+  const {data,error}=await sb.from('catalog').select('*').order('name');
+  if(error){console.error('Error cargando catálogo:',error);return[];}
+  return (data||[]).map(r=>r.data);
+}
+async function dbSaveCatalogDoc(doc){
+  const id=doc.id||('doc_'+Date.now());
+  doc.id=id;
+  const {error}=await sb.from('catalog').upsert({id,name:doc.name,data:doc},{onConflict:'id'});
+  if(error)console.error('Error guardando documento:',error);
+  return doc;
+}
+async function dbDeleteCatalogDoc(id){
+  const {error}=await sb.from('catalog').delete().eq('id',id);
+  if(error)console.error('Error eliminando documento del catálogo:',error);
+}
+async function dbGetUsers(){
+  const {data,error}=await sb.from('usuarios').select('*');
+  if(error){console.error('Error cargando usuarios:',error);return[];}
+  return data||[];
+}
+async function dbSaveUser(u){
+  const {error}=await sb.from('usuarios').upsert({username:u.user,pass:u.pass,name:u.name,role:u.role,is_admin:!!u.isAdmin,area_ids:u.areaIds||null},{onConflict:'username'});
+  if(error)console.error('Error guardando usuario:',error);
+}
+async function dbDeleteUser(username){
+  const {error}=await sb.from('usuarios').delete().eq('username',username);
+  if(error)console.error('Error eliminando usuario:',error);
+}
+async function dbUploadFile(file){
+  const uniqueName=Date.now()+'_'+file.name;
+  const {error}=await sb.storage.from('documentos').upload(uniqueName,file,{contentType:file.type||'application/octet-stream'});
+  if(error){console.error('Error subiendo archivo:',error);return null;}
+  const {data}=sb.storage.from('documentos').getPublicUrl(uniqueName);
+  return {url:data.publicUrl,name:file.name,size:file.size};
+}
+// Valida y normaliza una URL de link
+function normalizeLinkUrl(url){
+  if(!url)return null;
+  url=url.trim();
+  if(url&&!url.startsWith('http://') && !url.startsWith('https://'))url='https://'+url;
+  return url||null;
+}
+
+// Todas las áreas en tonos de azul (paleta IMAGEM)
+let AREAS = [
+  { id: "ventas", label: "Ventas", icon: "V", color: "#1b2877", light: "#E8EAF4", dark: "#111A50" },
+  { id: "cliente", label: "Cliente", icon: "C", color: "#254671", light: "#E5EBF3", dark: "#152940" },
+  { id: "contabilidad", label: "Contabilidad", icon: "CO", color: "#4A6FA5", light: "#ECF1F8", dark: "#2C4773" },
+  { id: "tesoreria", label: "Tesorería", icon: "T", color: "#5A7FB5", light: "#EEF2F9", dark: "#38598A" },
+  { id: "logistica", label: "Logística", icon: "L", color: "#6B8CBE", light: "#F0F4FA", dark: "#456FA0" },
+  { id: "digital", label: "Digital", icon: "D", color: "#7A97C4", light: "#F2F5FB", dark: "#5577A8" },
+  { id: "gestion_personas", label: "Gestión de Personas", icon: "GP", color: "#8AA4CB", light: "#F4F7FC", dark: "#6987B0" },
+  { id: "comex", label: "Comex", icon: "CX", color: "#3A6B8A", light: "#E4EEF5", dark: "#1E3F55" },
+];
+
+// Usuarios se cargan desde Supabase en init() — no están en el código
+let USERS = [];
+
+// Catálogo de documentos con área asociada y archivo opcional
+const DEFAULT_DOCS = [
+  { name: "Formulario de depósito", area: "tesoreria", file: null },
+  { name: "Cierre de caja diario", area: "tesoreria", file: null },
+  { name: "Protocolo de descuadres", area: "tesoreria", file: null },
+  { name: "Orden de Compra", area: "logistica", file: null },
+  { name: "Guía de despacho", area: "logistica", file: null },
+  { name: "Factura electrónica", area: "ventas", file: null },
+  { name: "Ficha de producto", area: "ventas", file: null },
+  { name: "Registro de inventario", area: "logistica", file: null },
+  { name: "Formulario de Solicitud de Devoluciones", area: "ventas", file: null },
+  { name: "Reporte de ventas diario", area: "ventas", file: null },
+  { name: "Nota de Crédito", area: "contabilidad", file: null },
+  { name: "Documento Devoluciones Mercadería", area: "logistica", file: null },
+  { name: "Excel de DVL", area: "logistica", file: null },
+];
+
+const TODAY = new Date().toISOString().split("T")[0];
+
+// ============ STATE ============
+const state = {
+  screen: "cover",
+  activeAreaId: null,
+  activeProcessId: null,
+  activeProposalId: null,
+  processes: [
+    {
+      id: "p1", title: "Verificación de depósitos", areas: ["tesoreria"],
+      updatedAt: "2026-04-23",
+      objetivo: "Confirmar que todos los depósitos realizados coincidan con los montos registrados en caja.",
+      beneficio: "Evita pérdidas económicas y garantiza la transparencia financiera de la tienda.",
+      nodes: [
+        { id: "n1", type: "step", area: "ventas", role: "Ejecutivo de ventas", title: "Recopilar comprobantes", desc: "Reunir todos los recibos, vouchers y comprobantes de depósito del día.", next: ["n2"] },
+        { id: "n2", type: "step", area: "tesoreria", role: "Cajero", title: "Comparar con el cierre de caja", desc: "Verificar que el total depositado coincida con el monto registrado en el sistema.", next: ["n3"] },
+        { id: "n3", type: "decision", area: "tesoreria", role: "Cajero", title: "¿Hay diferencias?", branches: [{ label: "SÍ", next: "n4" }, { label: "NO", next: "n5" }] },
+        { id: "n4", type: "step", area: "tesoreria", role: "Supervisor de finanzas", title: "Reportar diferencias", desc: "Notificar al supervisor con el detalle del error.", next: ["n5"] },
+        { id: "n5", type: "step", area: "logistica", role: "Asistente administrativo", title: "Archivar documentos", desc: "Guardar comprobantes y formulario en la carpeta del día.", next: ["n6"] },
+        { id: "n6", type: "end", area: "logistica", role: "Asistente administrativo", title: "Fin" },
+      ],
+      criticos: [
+        "No realizar el proceso sin tener todos los comprobantes físicos en mano.",
+        "Nunca dejar diferencias sin reportar, aunque sean montos pequeños.",
+        "El formulario debe firmarse en el momento, no al final de la semana.",
+      ],
+      docs: [
+        { name: "Formulario de depósito", area: "tesoreria", file: null },
+        { name: "Cierre de caja diario", area: "tesoreria", file: null },
+        { name: "Protocolo de descuadres", area: "tesoreria", file: null }
+      ],
+      media: [],
+      history: [{ date: "2026-04-23", name: "Felipe Cartagena", role: "Controller de Gestión", action: "Creación del proceso" }],
+    },
+    {
+      id: "p2", title: "Flujograma de Devoluciones (Bodega)", areas: ["cliente", "ventas", "logistica", "contabilidad", "tesoreria"],
+      updatedAt: "2026-04-23",
+      objetivo: "Gestionar las devoluciones de mercadería garantizando la satisfacción del cliente y el registro correcto de los movimientos.",
+      beneficio: "Entrega satisfacción garantizada al cliente y mantiene trazabilidad completa de devoluciones, créditos y reclamos a proveedores.",
+      nodes: [
+        { id: "n1", type: "step", area: "cliente", role: "Cliente", title: "Comunicar devolución", desc: "El cliente comunica su intención de devolver mercadería.", next: ["n2"] },
+        { id: "n2", type: "step", area: "ventas", role: "Ejecutivo de ventas", title: "Recepción intención de devolución", desc: "Ventas recibe la solicitud y consulta motivos. Aplican si: dentro del plazo (3 meses), error de IMAGEM, falla de fábrica, fuera de plazo, producto quebrado sin justificación, error de transporte. NO aplica si no hay venta previa. Si existe dificultad lo revisa un Comité.", next: ["n3"] },
+        { id: "n3", type: "decision", area: "ventas", role: "Jefe de ventas", title: "¿Aplica la devolución?", branches: [{ label: "SÍ", next: "n4" }, { label: "NO", next: "n_end1" }] },
+        { id: "n_end1", type: "end", area: "ventas", role: "Ejecutivo de ventas", title: "Informar a cliente — no aplica" },
+        { id: "n4", type: "step", area: "ventas", role: "Ejecutivo de ventas", title: "Enviar mercadería y Formulario de Solicitud de Devoluciones", desc: "Se envía al cliente para gestionar el retiro/envío.", next: ["n5"] },
+        { id: "n5", type: "step", area: "logistica", role: "Jefe de logística", title: "Recepcionar mercadería", desc: "Bodega recibe la mercadería devuelta. Importante: antecedentes alimentan el Excel de DVL.", next: ["n6"] },
+        { id: "n6", type: "step", area: "logistica", role: "Jefe de logística", title: "Revisión de productos y antecedentes", desc: "Se revisa el estado y documentación del producto.", next: ["n7"] },
+        { id: "n7", type: "decision", area: "logistica", role: "Jefe de logística", title: "¿Lo recibido cumple?", branches: [{ label: "SÍ", next: "n8" }, { label: "NO", next: "n_end2" }] },
+        { id: "n_end2", type: "end", area: "logistica", role: "Jefe de logística", title: "Informar a vendedor" },
+        { id: "n8", type: "step", area: "logistica", role: "Asistente de logística", title: "Se compara con factura: precio y % descuento", desc: "Se verifica que la información calce con la factura original.", next: ["n9"] },
+        { id: "n9", type: "step", area: "logistica", role: "Asistente de logística", title: "Emisión Cotización", desc: "Se emite cotización para la devolución.", next: ["n10"] },
+        { id: "n10", type: "step", area: "logistica", role: "Asistente de logística", title: "Se entrega a bodega operaria", desc: "La mercadería pasa al área operativa de bodega para revisión física.", next: ["n11"] },
+        { id: "n11", type: "step", area: "logistica", role: "Operario logística", title: "Revisar producto", desc: "Revisión detallada del estado físico del producto. Por falla de fábrica se contacta al comprador para generar reclamo al proveedor.", next: ["n12"] },
+        { id: "n12", type: "decision", area: "logistica", role: "Operario logística", title: "¿Buen estado?", branches: [{ label: "SÍ", next: "n13" }, { label: "NO", next: "n_destruir" }] },
+        { id: "n_destruir", type: "end", area: "logistica", role: "Operario logística", title: "Se destruye" },
+        { id: "n13", type: "step", area: "logistica", role: "Operario logística", title: "Reflejar en Documento Condición del producto", desc: "Se documenta la condición final del producto.", next: ["n14"] },
+        { id: "n14", type: "step", area: "logistica", role: "Operario logística", title: "Se almacena en su ubicación", desc: "El producto devuelto vuelve a bodega en su ubicación correspondiente.", next: ["n15"] },
+        { id: "n15", type: "step", area: "logistica", role: "Jefe de logística", title: "Orden de Compra — Devoluciones Mercadería", desc: "Se genera OC denominada 'Devoluciones Mercadería' al proveedor.", next: ["n16"] },
+        { id: "n16", type: "decision", area: "contabilidad", role: "Encargado contabilidad", title: "Tipo de cliente", branches: [{ label: "Cliente IMAGEM", next: "n17" }, { label: "Cliente Hometech", next: "n18" }] },
+        { id: "n17", type: "step", area: "contabilidad", role: "Encargado contabilidad", title: "Aplicación de Nota de Crédito", desc: "Se aplica nota de crédito al cliente IMAGEM.", next: ["n19"] },
+        { id: "n18", type: "step", area: "tesoreria", role: "Cajero", title: "Devolución de dinero", desc: "Se devuelve el dinero al cliente Hometech.", next: ["n20"] },
+        { id: "n19", type: "step", area: "contabilidad", role: "Encargado contabilidad", title: "Saldo en cuenta cliente", desc: "Queda registrado como saldo a favor del cliente.", next: ["n_fin"] },
+        { id: "n20", type: "step", area: "tesoreria", role: "Supervisor de finanzas", title: "Cotización para comprobar la merma", desc: "Cotización final para comprobar la merma.", next: ["n_fin"] },
+        { id: "n_fin", type: "end", area: "tesoreria", role: "Supervisor de finanzas", title: "Fin" },
+      ],
+      criticos: [
+        "Aplicar devoluciones SOLO dentro del plazo de 3 meses (salvo casos especiales aprobados por Comité).",
+        "Toda devolución debe alimentar el Excel de DVL sin excepciones.",
+        "Si la falla es de fábrica, siempre contactar al comprador para generar el reclamo al proveedor.",
+        "Las cotizaciones deben comparar precio Y porcentaje de descuento con la factura original.",
+        "Nunca destruir producto sin documentar la condición en el formulario correspondiente.",
+      ],
+      docs: [
+        { name: "Formulario de Solicitud de Devoluciones", area: "ventas", file: null },
+        { name: "Documento Devoluciones Mercadería", area: "logistica", file: null },
+        { name: "Orden de Compra", area: "logistica", file: null },
+        { name: "Nota de Crédito", area: "contabilidad", file: null },
+        { name: "Factura electrónica", area: "ventas", file: null },
+        { name: "Excel de DVL", area: "logistica", file: null }
+      ],
+      media: [],
+      history: [{ date: "2026-04-23", name: "Felipe Cartagena", role: "Controller de Gestión", action: "Creación del proceso" }],
+    },
+  ],
+  proposals: [
+    { id: "pr1", title: "Mejora: Automatizar conteo de caja", area: "tesoreria", description: "Sugerir implementar una hoja de cálculo con fórmulas para que el conteo de caja se sume automáticamente y se reduzca el error humano.", author: "María González", role: "Cajera", date: "2026-04-20", status: "pending", type: "mejora" },
+  ],
+  catalog: [...DEFAULT_DOCS],
+  currentUser: null,
+  editing: null,
+  loginError: "",
+  modal: null,
+};
+
+// ============ UTILS ============
+const fmtDate=d=>{if(!d)return"";const[y,m,day]=d.split("-");return`${day}/${m}/${y}`};
+const esc=s=>s==null?"":String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const mediaIcon=t=>t==="audio"?"🔊":t==="video"?"▶️":t==="image"?"🖼":"🔗";
+const getArea=id=>AREAS.find(a=>a.id===id)||AREAS[0];
+const getProcess=id=>state.processes.find(p=>p.id===id);
+const isAdminUser=()=>state.currentUser?.isAdmin;
+const visibleAreaIds=()=>state.currentUser && !state.currentUser.isAdmin && state.currentUser.areaIds ? state.currentUser.areaIds : AREAS.map(a=>a.id);
+const getVisibleAreas=()=>AREAS.filter(a=>visibleAreaIds().includes(a.id));
+const getVisibleProcesses=()=>state.processes.filter(p=>visibleAreaIds().some(aid=>p.areas.includes(aid)));
+function normalizeProcesses(){
+  state.processes.forEach((p,i)=>{if(p.position==null)p.position=i});
+  state.processes.sort((a,b)=>a.position-b.position);
+}
+async function moveProcess(id,dir){
+  const idx=state.processes.findIndex(p=>p.id===id);
+  const j=idx+dir;
+  if(idx<0||j<0||j>=state.processes.length)return;
+  [state.processes[idx],state.processes[j]]=[state.processes[j],state.processes[idx]];
+  state.processes[idx].position=idx;
+  state.processes[j].position=j;
+  await Promise.all([dbSaveProcess(state.processes[idx]), dbSaveProcess(state.processes[j])]);
+  normalizeProcesses();
+  render();
+}
+
+function logoWhite(size="large"){
+  const cls=size==="mini"?"lm":"lw";
+  if(LOGO_WHITE_URL)return`<div class="logo-frame-white"><img src="${LOGO_WHITE_URL}" alt="IMAGEM" class="${cls}"></div>`;
+  // SVG con viewBox amplio para que no se corte
+  return`<div class="logo-frame-white"><svg class="${cls}" viewBox="0 0 700 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <!-- Óvalo exterior -->
+    <ellipse cx="350" cy="150" rx="320" ry="130" stroke="#fff" stroke-width="18" fill="none"/>
+    <!-- Letra I con serifas -->
+    <rect x="172" y="30" width="56" height="14" fill="#fff"/>
+    <rect x="192" y="30" width="16" height="240" fill="#fff"/>
+    <rect x="172" y="256" width="56" height="14" fill="#fff"/>
+    <!-- Texto MAGEM -->
+    <text x="248" y="198" font-family="Arial Black, Arial, sans-serif" font-size="120" font-weight="900" fill="#fff" letter-spacing="2">MAGEM</text>
+  </svg></div>`;
+}
+function logoColor(size="primary"){
+  const cls=size==="mini"?"lm":"lc";
+  if(LOGO_COLOR_URL)return`<img src="${LOGO_COLOR_URL}" alt="IMAGEM" class="${cls}">`;
+  return`<svg class="${cls}" viewBox="0 0 700 300" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+    <ellipse cx="350" cy="150" rx="320" ry="130" stroke="${BRAND.primary}" stroke-width="18" fill="none"/>
+    <rect x="172" y="30" width="56" height="14" fill="${BRAND.primary}"/>
+    <rect x="192" y="30" width="16" height="240" fill="${BRAND.primary}"/>
+    <rect x="172" y="256" width="56" height="14" fill="${BRAND.primary}"/>
+    <text x="248" y="198" font-family="Arial Black, Arial, sans-serif" font-size="120" font-weight="900" fill="${BRAND.primary}" letter-spacing="2">MAGEM</text>
+  </svg>`;
+}
+
+// ============ PARTIALS ============
+function renderAdminBar(){
+  const user=state.currentUser;
+  if(user){
+    const label=user.isAdmin?"Modo edición":"Acceso de visualización";
+    return`<div class="ab ${user.isAdmin?'ad':''}"><div><span class="dot"></span><span style="color:var(--pd);"><strong>${esc(user.name)}</strong> · ${esc(user.role)} · <em>${label}</em></span></div><button class="btn bs" style="border-color:${BRAND.primary};color:${BRAND.primary};" onclick="doLogout()">Cerrar sesión</button></div>`;
+  }
+  return`<div class="ab"><div><span class="dot"></span><span style="color:var(--t2);">Modo lectura</span></div><button class="btn bs" onclick="go('login')">Acceso admin / área →</button></div>`;
+}
+const renderMini=()=>`<div class="mh">${logoColor("mini")}<div class="ml"></div></div>`;
+
+// ============ FLOW RENDER ============
+// Estado de navegación de decisiones: { nodeId: branchIndex }
+let flowBranchSelection = {};
+
+function renderFlow(nodes, interactive = true){
+  if(!nodes||nodes.length===0)return"";
+  const byId={};nodes.forEach(n=>byId[n.id]=n);
+
+  // Calcular índices de pasos globalmente
+  let idx=0;const indices={};
+  function walkIdx(n){if(!n||indices[n.id])return;if(n.type==="step"){idx++;indices[n.id]=idx}const nexts=n.type==="decision"?(n.branches||[]).map(b=>b.next):(n.next||[]);nexts.filter(Boolean).forEach(id=>walkIdx(byId[id]))}
+  if(nodes[0])walkIdx(nodes[0]);
+  function getStepIndex(id){return indices[id]||"·"}
+
+  const rendered=new Set();
+  let html='<div class="flow">';
+
+  function renderNode(node){
+    if(!node||rendered.has(node.id))return"";
+    rendered.add(node.id);
+    const a=getArea(node.area);
+    const roleLabel=node.role?`<span class="role-tag">· ${esc(node.role)}</span>`:"";
+    let h="";
+
+    if(node.type==="step"){
+      const nextIds=node.next||[];
+      const hasNext=nextIds.length>0&&nextIds[0];
+      h+=`<div class="node"><div class="ncol"><div class="nn" style="background:${a.color};">${getStepIndex(node.id)}</div>${hasNext?`<div class="line" style="background:${a.color};opacity:.4;"></div>`:""}</div><div class="ncn"><div><span class="al" style="background:${a.light};color:${a.dark};">${esc(a.label)}</span>${roleLabel}</div><p style="font-size:13px;font-weight:500;margin-bottom:2px;">${esc(node.title)}</p>${node.desc?`<p style="font-size:12px;color:var(--t2);">${esc(node.desc)}</p>`:""}</div></div>`;
+      nextIds.filter(Boolean).forEach(nid=>{h+=renderNode(byId[nid])});
+    }else if(node.type==="decision"){
+      if(interactive){
+        const selectedBranch=flowBranchSelection[node.id];
+        h+=`<div class="node"><div class="ncol"><div class="nd" style="background:${a.color};"><span>?</span></div></div><div class="ncn"><div><span class="al" style="background:${a.light};color:${a.dark};">${esc(a.label)} · Decisión</span>${roleLabel}</div><p style="font-size:13px;font-weight:500;margin-bottom:8px;">${esc(node.title)}</p><p style="font-size:11px;color:var(--t2);margin-bottom:8px;font-style:italic;">Haz clic en una opción para ver su flujo</p><div class="branches">${(node.branches||[]).map((b,i)=>{const clr=i===0?BRAND.primary:i===1?"#254671":i===2?"#4A6FA5":"#5A7FB5";const isActive=selectedBranch===i;return`<div class="branch branch-interactive" style="border-left-color:${clr};${isActive?`background:${clr}15;border-color:${clr};`:''}" onclick="selectBranch('${node.id}',${i})"><div><div class="bh" style="color:${clr};">${isActive?'✓ ':'→ '}${esc(b.label)}</div><div class="bt">${b.next?(byId[b.next].type==="end"?`Fin: ${esc(byId[b.next].title||"")}`:`Ver flujo →`):"Fin"}</div></div><div class="branch-arrow" style="color:${clr};">${isActive?'▼':'▸'}</div></div>`}).join("")}</div></div></div>`;
+
+        // Solo renderizar la rama seleccionada
+        if(selectedBranch !== undefined){
+          const branch=(node.branches||[])[selectedBranch];
+          if(branch && branch.next && byId[branch.next]){
+            const branchColor=selectedBranch===0?BRAND.primary:selectedBranch===1?"#254671":"#4A6FA5";
+            h+=`<div style="margin-left:24px;padding-left:18px;border-left:2px dashed ${branchColor}66;padding-top:8px;padding-bottom:4px;">`;
+            h+=`<div style="font-size:11px;color:${branchColor};font-weight:600;margin-bottom:8px;">CONTINÚA CON "${esc(branch.label).toUpperCase()}"</div>`;
+            h+=renderNode(byId[branch.next]);
+            h+=`</div>`;
+          }
+        }
+      }else{
+        // Modo no interactivo (para descargas): muestra todas las ramas
+        h+=`<div class="node"><div class="ncol"><div class="nd" style="background:${a.color};"><span>?</span></div></div><div class="ncn"><div><span class="al" style="background:${a.light};color:${a.dark};">${esc(a.label)} · Decisión</span>${roleLabel}</div><p style="font-size:13px;font-weight:500;margin-bottom:6px;">${esc(node.title)}</p><div class="branches">${(node.branches||[]).map((b,i)=>{const clr=i===0?BRAND.primary:"#254671";return`<div class="branch" style="border-left-color:${clr};cursor:default;"><div class="bh" style="color:${clr};">→ ${esc(b.label)}</div><div class="bt">${b.next?(byId[b.next].type==="end"?`Fin: ${esc(byId[b.next].title||"")}`:`Paso ${getStepIndex(b.next)}: ${esc(byId[b.next].title)}`):"Fin"}</div></div>`}).join("")}</div></div></div>`;
+        (node.branches||[]).forEach(b=>{if(b.next)h+=renderNode(byId[b.next])});
+      }
+    }else if(node.type==="end"){
+      h+=`<div class="node"><div class="ncol"><div class="ne" style="border-color:${a.color};color:${a.color};">FIN</div></div><div class="ncn"><div><span class="al" style="background:${a.light};color:${a.dark};">${esc(a.label)}</span>${roleLabel}</div><p style="font-size:13px;font-weight:500;">${esc(node.title||"Fin")}</p></div></div>`;
+    }
+
+    return h;
+  }
+
+  html+=renderNode(nodes[0]);
+  // En modo interactivo no renderizamos huérfanos (las ramas no seleccionadas)
+  if(!interactive){
+    nodes.forEach(n=>{if(!rendered.has(n.id))html+=renderNode(n);});
+  }
+  html+="</div>";
+  return html;
+}
+
+function selectBranch(nodeId, branchIdx){
+  // Si ya está seleccionada, deseleccionar (toggle)
+  if(flowBranchSelection[nodeId] === branchIdx){
+    delete flowBranchSelection[nodeId];
+  }else{
+    flowBranchSelection[nodeId] = branchIdx;
+  }
+  render();
+}
+
+// ============ PORTADA INVITADOS ============
+function renderCover(){
+  return`<div style="min-height:100vh;background:var(--p);display:flex;align-items:center;justify-content:center;padding:20px;">
+    <div style="max-width:400px;width:100%;text-align:center;">
+      <div style="margin-bottom:32px;">${logoWhite("large")}</div>
+      <h1 style="color:#fff;font-size:24px;font-weight:500;margin-bottom:8px;">Manual de Procesos</h1>
+      <p style="color:rgba(255,255,255,.7);font-size:13px;margin-bottom:32px;">Accede con tus credenciales de área o como administrador</p>
+      <div style="background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:28px;">
+        <p style="color:rgba(255,255,255,.6);font-size:11px;font-weight:500;letter-spacing:.08em;margin-bottom:6px;">USUARIO</p>
+        <input type="text" id="coverUser" placeholder="Ingresa tu usuario" onkeydown="if(event.key==='Enter')doCoverLogin()" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;margin-bottom:14px;" autocomplete="username">
+        <p style="color:rgba(255,255,255,.6);font-size:11px;font-weight:500;letter-spacing:.08em;margin-bottom:6px;">CONTRASEÑA</p>
+        <input type="password" id="coverPass" placeholder="Ingresa tu contraseña" onkeydown="if(event.key==='Enter')doCoverLogin()" style="background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;margin-bottom:4px;" autocomplete="current-password">
+        ${state.loginError?`<p style="font-size:12px;color:#FFB3B3;background:rgba(198,40,40,.3);padding:7px 10px;border-radius:6px;margin-bottom:10px;">${esc(state.loginError)}</p>`:'<div style="height:14px;margin-bottom:4px;"></div>'}
+        <button onclick="doCoverLogin()" style="width:100%;padding:11px;background:var(--a);color:var(--pd);border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit;">Ingresar →</button>
+      </div>
+      <p style="color:rgba(255,255,255,.35);font-size:11px;margin-top:20px;">© IMAGEM · Acceso restringido a personal autorizado</p>
+    </div>
+  </div>`;
+}
+
+function doCoverLogin(){
+  const u=(document.getElementById("coverUser")||{}).value?.trim()||"";
+  const p=(document.getElementById("coverPass")||{}).value||"";
+  const found=USERS.find(a=>a.user===u&&a.pass===p);
+  if(found){
+    state.currentUser={name:found.name,role:found.role,isAdmin:!!found.isAdmin,areaIds:found.areaIds||null};
+    state.loginError="";
+    state.screen="portada";
+  }else{
+    state.loginError="Usuario o contraseña incorrectos";
+  }
+  render();
+}
+
+// ============ COMPLIANCE / SEGUIMIENTO ============
+const PHASES=[
+  {id:"recibida",label:"Recibida",color:"#9fadbc"},
+  {id:"en_revision",label:"En revisión",color:"#edcc2a"},
+  {id:"en_reunion",label:"En reunión",color:"#4A6FA5"},
+  {id:"en_evaluacion",label:"En evaluación",color:"#7A97C4"},
+  {id:"implementando",label:"Implementando",color:"#2E7D32"},
+  {id:"completada",label:"Completada",color:"#1b6b1b"},
+  {id:"rechazada",label:"Rechazada",color:"#C62828"},
+];
+function getPhase(id){return PHASES.find(p=>p.id===id)||PHASES[0]}
+
+function renderCompliance(){
+  if(!isAdminUser()){state.screen="login";return renderLogin()}
+  const proposals=state.proposals;
+  const byArea={};
+  AREAS.forEach(a=>{byArea[a.id]=proposals.filter(p=>p.area===a.id)});
+
+  // Stats globales
+  const total=proposals.length;
+  const completed=proposals.filter(p=>(p.tracking?.phase||"recibida")==="completada").length;
+  const inProgress=proposals.filter(p=>!["completada","rechazada","recibida"].includes(p.tracking?.phase||"recibida")).length;
+  const pending=proposals.filter(p=>(p.tracking?.phase||"recibida")==="recibida").length;
+
+  const rows=proposals.map(pr=>{
+    const a=getArea(pr.area);
+    const phase=getPhase(pr.tracking?.phase||"recibida");
+    const meetings=(pr.tracking?.meetings||[]).length;
+    const involved=(pr.tracking?.involvedPersons||[]).join(", ")||"—";
+    const tl=pr.type==="nuevo"?"Nuevo proceso":pr.type==="propuesta_mejora"?"Propuesta de mejora":"Mejora";
+    return`<div class="pc" style="border-left:4px solid ${phase.color};margin-bottom:8px;cursor:pointer;" onclick="openProposalDetail('${pr.id}')">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;flex-wrap:wrap;">
+        <div>
+          <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:4px;">
+            <span class="sp" style="background:${a.light};color:${a.dark};">${esc(a.label)}</span>
+            <span class="sp" style="background:var(--su2);color:var(--t2);">${tl}</span>
+            <span class="sp" style="background:${phase.color}22;color:${phase.color};border:1px solid ${phase.color}44;">● ${esc(phase.label)}</span>
+          </div>
+          <p style="font-size:14px;font-weight:500;">${esc(pr.title)}</p>
+          <p style="font-size:11px;color:var(--t2);margin-top:3px;">Por ${esc(pr.author)} · ${fmtDate(pr.date)}</p>
+        </div>
+        <div style="text-align:right;flex-shrink:0;">
+          <p style="font-size:11px;color:var(--t2);">${meetings} reunión${meetings!==1?"es":""}</p>
+          ${pr.tracking?.targetDate?`<p style="font-size:11px;color:var(--t2);">Meta: ${fmtDate(pr.tracking.targetDate)}</p>`:""}
+        </div>
+      </div>
+      ${involved!=="—"?`<p style="font-size:11px;color:var(--t2);margin-top:6px;">👥 Involucrados: ${esc(involved)}</p>`:""}
+      <p style="font-size:11px;color:var(--p);margin-top:4px;">Toca para ver detalle →</p>
+    </div>`;
+  }).join("")||`<div class="card" style="text-align:center;color:var(--t2);padding:24px;font-size:13px;">No hay propuestas aún.</div>`;
+
+  return`${renderAdminBar()}${renderMini()}
+    <div class="fh" style="background:${BRAND.primary};">
+      <p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">ADMINISTRACIÓN</p>
+      <h2 style="font-size:19px;">📊 Seguimiento y Cumplimiento</h2>
+      <p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">Monitorea el estado y avance de cada propuesta de proceso o mejora.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:20px;">
+      <div class="card" style="text-align:center;padding:16px;">
+        <p style="font-size:28px;font-weight:600;color:var(--p);">${total}</p>
+        <p style="font-size:11px;color:var(--t2);">Total</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px;">
+        <p style="font-size:28px;font-weight:600;color:#edcc2a;">${pending}</p>
+        <p style="font-size:11px;color:var(--t2);">Sin iniciar</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px;">
+        <p style="font-size:28px;font-weight:600;color:#4A6FA5;">${inProgress}</p>
+        <p style="font-size:11px;color:var(--t2);">En progreso</p>
+      </div>
+      <div class="card" style="text-align:center;padding:16px;">
+        <p style="font-size:28px;font-weight:600;color:#2E7D32;">${completed}</p>
+        <p style="font-size:11px;color:var(--t2);">Completadas</p>
+      </div>
+    </div>
+    <p class="sl">Todas las propuestas</p>
+    <div style="margin-bottom:16px;">${rows}</div>
+    <div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button></div>`;
+}
+
+function openProposalDetail(id){state.activeProposalId=id;state.screen="proposalDetail";render()}
+
+function renderProposalDetail(){
+  if(!isAdminUser()){state.screen="login";return renderLogin()}
+  const pr=state.proposals.find(p=>p.id===state.activeProposalId);if(!pr)return"";
+  if(!pr.tracking)pr.tracking={phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]};
+  const a=getArea(pr.area);
+  const phase=getPhase(pr.tracking.phase||"recibida");
+  const tl=pr.type==="nuevo"?"Nuevo proceso":pr.type==="propuesta_mejora"?"Propuesta de mejora":"Mejora";
+
+  const phaseSelector=PHASES.map(ph=>`<button onclick="updateProposalTracking('${pr.id}','phase','${ph.id}')" style="padding:6px 12px;border-radius:20px;border:1.5px solid ${ph.color};background:${(pr.tracking.phase||"recibida")===ph.id?ph.color:"transparent"};color:${(pr.tracking.phase||"recibida")===ph.id?"#fff":ph.color};font-size:12px;cursor:pointer;font-family:inherit;font-weight:500;transition:.15s;">● ${esc(ph.label)}</button>`).join("");
+
+  const meetings=(pr.tracking.meetings||[]).map((m,i)=>`<div style="background:var(--su2);border-radius:8px;padding:10px 12px;margin-bottom:6px;border-left:3px solid ${BRAND.primary};">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+      <p style="font-size:13px;font-weight:500;">${esc(m.title||"Reunión")}</p>
+      <span style="font-size:11px;color:var(--t2);">${fmtDate(m.date)}</span>
+    </div>
+    ${m.attendees?`<p style="font-size:11px;color:var(--t2);margin-top:3px;">👥 ${esc(m.attendees)}</p>`:""}
+    ${m.notes?`<p style="font-size:12px;color:var(--t);margin-top:4px;line-height:1.4;">${esc(m.notes)}</p>`:""}
+    <button class="bd" onclick="removeMeeting('${pr.id}',${i})" style="margin-top:6px;">✕ Eliminar</button>
+  </div>`).join("")||`<p style="font-size:12px;color:var(--t2);font-style:italic;">Sin reuniones registradas.</p>`;
+
+  const minutas=(pr.tracking.minutas||[]).map((m,i)=>`<div style="background:var(--su2);border-radius:8px;padding:10px 12px;margin-bottom:6px;">
+    <div style="display:flex;justify-content:space-between;">
+      <p style="font-size:13px;font-weight:500;">📄 ${esc(m.title)}</p>
+      <span style="font-size:11px;color:var(--t2);">${fmtDate(m.date)}</span>
+    </div>
+    <p style="font-size:12px;color:var(--t2);margin-top:3px;line-height:1.4;">${esc(m.content)}</p>
+    <button class="bd" onclick="removeMinuta('${pr.id}',${i})" style="margin-top:6px;">✕ Eliminar</button>
+  </div>`).join("")||`<p style="font-size:12px;color:var(--t2);font-style:italic;">Sin minutas registradas.</p>`;
+
+  return`${renderAdminBar()}${renderMini()}
+    <div class="fh" style="background:${BRAND.primary};">
+      <p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">DETALLE DE PROPUESTA</p>
+      <h2 style="font-size:18px;">${esc(pr.title)}</h2>
+      <div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap;">
+        <span style="background:rgba(255,255,255,.15);color:#fff;font-size:11px;padding:2px 10px;border-radius:20px;">${esc(a.label)}</span>
+        <span style="background:rgba(255,255,255,.15);color:#fff;font-size:11px;padding:2px 10px;border-radius:20px;">${tl}</span>
+        <span style="background:${phase.color};color:#fff;font-size:11px;padding:2px 10px;border-radius:20px;font-weight:500;">● ${esc(phase.label)}</span>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">INFORMACIÓN BÁSICA</p>
+      <p style="font-size:13px;"><strong>Enviada por:</strong> ${esc(pr.author)} · ${fmtDate(pr.date)}</p>
+      <p style="font-size:13px;margin-top:4px;line-height:1.5;color:var(--t2);">${esc(pr.description)}</p>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">FASE DEL PROCESO</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:4px;">${phaseSelector}</div>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">INVOLUCRADOS</p>
+      <input id="involvedInput" value="${esc((pr.tracking.involvedPersons||[]).join(", "))}" placeholder="Ej: Felipe Cartagena, María González..." onchange="saveInvolved('${pr.id}',this.value)" style="margin-bottom:0;">
+      <p style="font-size:11px;color:var(--t2);margin-top:4px;">Separa los nombres con comas.</p>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">FECHA META DE CIERRE</p>
+      <input type="date" id="targetDateInput" value="${pr.tracking.targetDate||""}" onchange="updateProposalTracking('${pr.id}','targetDate',this.value)" style="margin-bottom:0;">
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">NOTAS GENERALES DE SEGUIMIENTO</p>
+      <textarea id="notesInput" placeholder="Observaciones, pendientes, contexto..." onchange="updateProposalTracking('${pr.id}','notes',this.value)" style="min-height:80px;">${esc(pr.tracking.notes||"")}</textarea>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">NOTAS DE EVALUACIÓN</p>
+      <textarea id="evalInput" placeholder="Resultado de evaluación, criterios, observaciones..." onchange="updateProposalTracking('${pr.id}','evaluationNotes',this.value)" style="min-height:80px;">${esc(pr.tracking.evaluationNotes||"")}</textarea>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">REUNIONES (${(pr.tracking.meetings||[]).length})</p>
+      <div style="margin-bottom:10px;">${meetings}</div>
+      <div style="background:var(--pl);border-radius:8px;padding:12px;">
+        <p style="font-size:12px;font-weight:500;color:${BRAND.primary};margin-bottom:8px;">+ Nueva reunión</p>
+        <input id="mtgTitle" placeholder="Título de la reunión" style="margin-bottom:6px;">
+        <input type="date" id="mtgDate" style="margin-bottom:6px;">
+        <input id="mtgAttendees" placeholder="Asistentes" style="margin-bottom:6px;">
+        <textarea id="mtgNotes" placeholder="Notas y acuerdos de la reunión..." style="min-height:60px;margin-bottom:6px;"></textarea>
+        <button class="btn bp" onclick="addMeeting('${pr.id}')">Agregar reunión</button>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:10px;">
+      <p class="lbl" style="color:${BRAND.primary};">MINUTAS (${(pr.tracking.minutas||[]).length})</p>
+      <div style="margin-bottom:10px;">${minutas}</div>
+      <div style="background:var(--pl);border-radius:8px;padding:12px;">
+        <p style="font-size:12px;font-weight:500;color:${BRAND.primary};margin-bottom:8px;">+ Nueva minuta</p>
+        <input id="minTitle" placeholder="Título de la minuta" style="margin-bottom:6px;">
+        <input type="date" id="minDate" style="margin-bottom:6px;">
+        <textarea id="minContent" placeholder="Contenido de la minuta..." style="min-height:80px;margin-bottom:6px;"></textarea>
+        <button class="btn bp" onclick="addMinuta('${pr.id}')">Agregar minuta</button>
+      </div>
+    </div>
+
+    <div class="nr">
+      <button class="btn" onclick="go('compliance')">← Seguimiento</button>
+      <div style="display:flex;gap:8px;">
+        ${pr.status==="pending"?`<button class="btn bs" style="background:var(--ok);color:#fff;border:none;" onclick="updateProposalStatus('${pr.id}','approved')">✓ Aprobar</button><button class="btn bs" style="background:var(--d);color:#fff;border:none;" onclick="updateProposalStatus('${pr.id}','rejected')">✕ Rechazar</button>`:""}
+      </div>
+    </div>`;
+}
+
+async function updateProposalTracking(id,field,value){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr)return;
+  if(!pr.tracking)pr.tracking={phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]};
+  pr.tracking[field]=value;
+  await dbSaveProposal(pr);
+  if(field==="phase")render();
+}
+
+async function saveInvolved(id,value){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr)return;
+  if(!pr.tracking)pr.tracking={phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]};
+  pr.tracking.involvedPersons=value.split(",").map(s=>s.trim()).filter(Boolean);
+  await dbSaveProposal(pr);
+}
+
+async function addMeeting(id){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr)return;
+  if(!pr.tracking)pr.tracking={phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]};
+  const title=document.getElementById("mtgTitle")?.value?.trim()||"";
+  const date=document.getElementById("mtgDate")?.value||TODAY;
+  const attendees=document.getElementById("mtgAttendees")?.value?.trim()||"";
+  const notes=document.getElementById("mtgNotes")?.value?.trim()||"";
+  if(!title){alert("Por favor ingresa un título para la reunión.");return}
+  pr.tracking.meetings=[...(pr.tracking.meetings||[]),{title,date,attendees,notes}];
+  await dbSaveProposal(pr);
+  render();
+}
+
+async function removeMeeting(id,idx){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr||!pr.tracking)return;
+  pr.tracking.meetings.splice(idx,1);
+  await dbSaveProposal(pr);
+  render();
+}
+
+async function addMinuta(id){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr)return;
+  if(!pr.tracking)pr.tracking={phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]};
+  const title=document.getElementById("minTitle")?.value?.trim()||"";
+  const date=document.getElementById("minDate")?.value||TODAY;
+  const content=document.getElementById("minContent")?.value?.trim()||"";
+  if(!title){alert("Por favor ingresa un título para la minuta.");return}
+  pr.tracking.minutas=[...(pr.tracking.minutas||[]),{title,date,content}];
+  await dbSaveProposal(pr);
+  render();
+}
+
+async function removeMinuta(id,idx){
+  const pr=state.proposals.find(p=>p.id===id);if(!pr||!pr.tracking)return;
+  pr.tracking.minutas.splice(idx,1);
+  await dbSaveProposal(pr);
+  render();
+}
+
+// ============ PORTADA ============
+function renderPortada(){
+  const isAdmin=isAdminUser();
+  const areas=getVisibleAreas();
+  const cards=areas.map(a=>{const count=getVisibleProcesses().filter(p=>p.areas.includes(a.id)).length;return`<div class="ac" onclick="goArea('${a.id}')" onmouseenter="this.style.borderColor='${a.color}'" onmouseleave="this.style.borderColor='var(--b)'"><div class="ai" style="background:${a.light};color:${a.color};">${a.icon}</div><p style="font-size:14px;font-weight:500;margin-bottom:3px;">${esc(a.label)}</p><p style="font-size:12px;color:var(--t2);">${count} proceso${count!==1?"s":""}</p></div>`}).join("");
+  const pending=isAdmin?state.proposals.filter(p=>p.status==="pending").length:0;
+  return`${renderAdminBar()}<div class="hero"><div class="hd1"></div><div class="hd2"></div><div class="hlw">${logoWhite("large")}</div><h1 class="ht">Manual de fichas por procesos</h1><p class="hs">Versión 1.0 · Abril 2026</p><div class="hl"></div></div><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;"><p class="sl" style="margin-bottom:0;">Selecciona un área</p>${isAdmin?`<span style="display:flex;gap:8px;flex-wrap:wrap;"><button class="btn bs" onclick="go('areaManager')">⚙ Gestionar áreas</button><button class="btn bs" onclick="go('catalogManager')">📋 Catálogo</button><button class="btn bs" onclick="go('userManager')">👥 Usuarios</button><button class="btn bs" onclick="go('compliance')" style="background:var(--p);color:#fff;border:none;">📊 Seguimiento</button></span>`:""}</div><div class="ag">${cards}</div><p class="sl">Recursos adicionales</p><div class="xg"><div class="xc" onclick="go('proposals')"><div class="xi" style="background:var(--pl);color:var(--p);">💡</div><div><p style="font-size:14px;font-weight:500;margin-bottom:2px;">Propuestas y mejoras ${pending>0?`<span class="pb">${pending}</span>`:""}</p><p style="font-size:11px;color:var(--t2);">${isAdmin?'Revisar propuestas del equipo':'Sugerir mejoras o nuevos procesos'}</p></div></div><div class="xc" onclick="go('manual')"><div class="xi" style="background:var(--pl);color:var(--p);">📖</div><div><p style="font-size:14px;font-weight:500;margin-bottom:2px;">Cómo levantar un proceso</p><p style="font-size:11px;color:var(--t2);">Guía paso a paso</p></div></div></div><div class="ft">© IMAGEM · Todos los derechos reservados</div>`;
+}
+
+function renderArea(){
+  const a=getArea(state.activeAreaId);
+  const list=getVisibleProcesses().filter(p=>p.areas.includes(a.id));
+  const isAdmin=isAdminUser();
+  const items=list.length===0?`<div class="card" style="text-align:center;color:var(--t2);font-size:13px;padding:24px;">No hay procesos en esta área aún.</div>`:list.map((p,index)=>`<div style="display:flex;gap:10px;align-items:flex-start;"><div class="pi" onclick="goFicha('${p.id}')"><div class="pic" style="background:${a.light};"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="3" width="14" height="2" rx="1" fill="${a.color}"/><rect x="2" y="8" width="10" height="2" rx="1" fill="${a.color}"/><rect x="2" y="13" width="7" height="2" rx="1" fill="${a.color}"/></svg></div><div style="flex:1;min-width:0;"><p style="font-size:14px;font-weight:500;margin-bottom:2px;">${esc(p.title)}</p><p style="font-size:12px;color:var(--t2);">Actualizado: ${fmtDate(p.updatedAt)}</p></div></div>${isAdmin?`<div style="display:flex;flex-direction:column;gap:6px;margin-top:4px;"><button class="move-btn" onclick="event.stopPropagation();moveProcess('${p.id}',-1)" ${index===0?'disabled':''} title="Mover arriba">▲</button><button class="move-btn" onclick="event.stopPropagation();moveProcess('${p.id}',1)" ${index===list.length-1?'disabled':''} title="Mover abajo">▼</button></div>`:""}</div>`).join("");
+  return`${renderAdminBar()}${renderMini()}<div class="abn" style="background:${a.color};"><div><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">ÁREA</p><h2 style="font-size:20px;">${esc(a.label)}</h2></div>${list.length>0?`<button class="btn bs" style="background:#fff;color:${a.color};border:none;" onclick="downloadArea('${a.id}')">⬇ Descargar área</button>`:""}</div><p class="sl">${list.length} proceso${list.length!==1?"s":""}</p><div style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;">${items}</div><div class="nr"><button class="btn" onclick="go('portada')">← Áreas</button>${isAdmin?`<button class="btn ba" onclick="addProcess()">+ Agregar proceso</button>`:""}</div>`;
+}
+
+function renderFicha(){
+  const p=getProcess(state.activeProcessId);if(!p)return"";
+  const ma=getArea(p.areas[0]);
+  const isAdmin=isAdminUser();
+  const chips=p.areas.map(aid=>{const ar=getArea(aid);return`<span class="ach">${esc(ar.label)}</span>`}).join("");
+  const flow=p.nodes&&p.nodes.length>0?`<div class="card" style="margin-bottom:12px;"><p class="lbl" style="color:${ma.color};">FLUJO DEL PROCESO</p>${renderFlow(p.nodes)}</div>`:"";
+  const crit=p.criticos.length===0?"":`<div class="cc"><p class="lbl" style="color:var(--dd);display:flex;align-items:center;gap:6px;"><span>⚠</span>PUNTOS CRÍTICOS</p>${p.criticos.map(c=>`<div class="ci"><span class="cii">!</span><span>${esc(c)}</span></div>`).join("")}</div>`;
+  const docs=p.docs.length===0?"":`<div class="card" style="margin-bottom:12px;"><p class="lbl" style="color:${ma.color};">DOCUMENTOS RELACIONADOS</p><div style="display:flex;flex-direction:column;gap:6px;">${p.docs.map(d=>{
+    // Soporta ambos formatos (string antiguo y objeto nuevo)
+    const docObj=typeof d==="string"?{name:d,area:null,link:null,file:null}:d;
+    const docArea=docObj.area?getArea(docObj.area):null;
+    // Si el doc guardado no tiene link, buscarlo en el catálogo actual (por si se agregó después)
+    const catalogRef=state.catalog.find(c=>c.name===docObj.name);
+    const docLink=docObj.link||(docObj.file?{url:docObj.file.url||'#',name:docObj.file.name||docObj.name}:null)
+                 ||(catalogRef?.link)||(catalogRef?.file?{url:catalogRef.file.url||'#',name:catalogRef.file.name||catalogRef.name}:null);
+    return`<div class="doc-with-area"><div style="flex:1;min-width:0;"><p style="font-size:13px;font-weight:500;margin-bottom:2px;">📄 ${esc(docObj.name)}</p>${docLink?`<a href="${esc(docLink.url)}" target="_blank" rel="noreferrer" class="doc-file-link">🔗 ${esc(docLink.name||'Abrir documento')}</a>`:''}</div>${docArea?`<span class="doc-area-tag" style="background:${docArea.light};color:${docArea.dark};">${esc(docArea.label)}</span>`:''}</div>`;
+  }).join("")}</div></div>`;
+  function renderMediaItem(m){
+    const isYT=m.url&&(m.url.includes("youtube.com")||m.url.includes("youtu.be"));
+    const isVimeo=m.url&&m.url.includes("vimeo.com");
+    const isDriveAudio=m.url&&m.url.includes("drive.google.com")&&m.type==="audio";
+    const isDriveVideo=m.url&&m.url.includes("drive.google.com")&&m.type==="video";
+    let embedId="";
+    if(isYT){
+      const match=m.url.match(/(?:v=|youtu\.be\/)([\w-]{11})/);
+      if(match)embedId=match[1];
+    }
+    if(isVimeo){
+      const match=m.url.match(/vimeo\.com\/(\d+)/);
+      if(match)embedId=match[1];
+    }
+    let player="";
+    if(m.type==="audio"){
+      if(isDriveAudio){
+        // Google Drive audio embed
+        const fileId=m.url.match(/\/d\/([^/]+)/)?.[1]||m.url.match(/id=([^&]+)/)?.[1];
+        const embedUrl=fileId?`https://drive.google.com/file/d/${fileId}/preview`:"";
+        player=embedUrl?`<iframe src="${esc(embedUrl)}" style="width:100%;height:80px;border:none;border-radius:8px;margin-top:6px;" allow="autoplay"></iframe>`
+          :`<audio controls style="width:100%;margin-top:6px;"><source src="${esc(m.url)}"><a href="${esc(m.url)}" target="_blank">Abrir audio</a></audio>`;
+      } else {
+        player=`<audio controls style="width:100%;margin-top:6px;border-radius:8px;"><source src="${esc(m.url)}"><p style="font-size:11px;color:var(--t2);"><a href="${esc(m.url)}" target="_blank">Abrir audio →</a></p></audio>`;
+      }
+    } else if(m.type==="video"){
+      if(isYT&&embedId){
+        player=`<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-top:8px;"><iframe src="https://www.youtube.com/embed/${esc(embedId)}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div>`;
+      } else if(isVimeo&&embedId){
+        player=`<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-top:8px;"><iframe src="https://player.vimeo.com/video/${esc(embedId)}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allowfullscreen></iframe></div>`;
+      } else if(isDriveVideo){
+        const fileId=m.url.match(/\/d\/([^/]+)/)?.[1]||m.url.match(/id=([^&]+)/)?.[1];
+        const embedUrl=fileId?`https://drive.google.com/file/d/${fileId}/preview`:"";
+        player=embedUrl?`<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-top:8px;"><iframe src="${esc(embedUrl)}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" allow="autoplay" allowfullscreen></iframe></div>`
+          :`<video controls style="width:100%;border-radius:8px;margin-top:6px;"><source src="${esc(m.url)}"><a href="${esc(m.url)}" target="_blank">Abrir video</a></video>`;
+      } else {
+        player=`<video controls style="width:100%;border-radius:8px;margin-top:6px;"><source src="${esc(m.url)}"><p style="font-size:11px;color:var(--t2);"><a href="${esc(m.url)}" target="_blank">Abrir video →</a></p></video>`;
+      }
+    } else {
+      // link / imagen
+      player=`<a href="${esc(m.url)}" target="_blank" rel="noreferrer" style="font-size:12px;color:var(--p);display:inline-flex;align-items:center;gap:4px;margin-top:4px;">🔗 ${esc(m.url)}</a>`;
+    }
+    return`<div style="background:var(--su2);border-radius:10px;padding:12px 14px;margin-bottom:8px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+        <span style="font-size:16px;">${mediaIcon(m.type)}</span>
+        <p style="font-size:13px;font-weight:500;">${esc(m.label)}</p>
+        <span style="font-size:10px;color:var(--t3);background:var(--pl);padding:1px 7px;border-radius:20px;text-transform:uppercase;">${m.type==="audio"?"Audio":m.type==="video"?"Video":"Link"}</span>
+      </div>
+      ${player}
+    </div>`;
+  }
+  const media=p.media.length===0?"":`<div class="card" style="margin-bottom:12px;"><p class="lbl" style="color:${ma.color};">🎬 RECURSOS MULTIMEDIA</p>${p.media.map(renderMediaItem).join("")}</div>`;
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${ma.color};"><div class="fhr"><div><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">FICHA DE PROCESO</p><h2 style="font-size:19px;margin-bottom:6px;">${esc(p.title)}</h2><div>${chips}</div></div><span style="font-size:11px;color:rgba(255,255,255,.7);white-space:nowrap;">Act. ${fmtDate(p.updatedAt)}</span></div></div><div class="fg"><div class="card"><p class="lbl" style="color:${ma.color};">OBJETIVO</p><p style="font-size:13px;line-height:1.5;">${p.objetivo?esc(p.objetivo):'<em style="color:var(--t2);">Sin definir</em>'}</p></div><div class="card" style="background:${ma.light};border-color:${ma.color}33;"><p class="lbl" style="color:${ma.color};">BENEFICIO</p><p style="font-size:13px;color:${ma.dark};line-height:1.5;">${p.beneficio?esc(p.beneficio):`<em style="color:${ma.color};">Sin definir</em>`}</p></div></div>${flow}${crit}${docs}${media}<div class="nr"><button class="btn" onclick="goArea('${ma.id}')">← ${esc(ma.label)}</button><div style="display:flex;gap:8px;flex-wrap:wrap;"><button class="btn" onclick="downloadProcess('${p.id}')">⬇ Descargar</button><button class="btn" onclick="go('history')">📋 Historial (${(p.history||[]).length})</button>${isAdmin?`<button class="btn ba" onclick="startEdit('${p.id}')">Editar</button>`:""}${isAdmin?`<button class="bd" onclick="confirmDelete('${p.id}')">🗑 Eliminar</button>`:""}</div></div>`;
+}
+
+function renderHistory(){
+  const p=getProcess(state.activeProcessId);if(!p)return"";
+  const a=getArea(p.areas[0]);
+  const hist=[...(p.history||[])].reverse();
+  const content=hist.length===0?`<div class="card" style="text-align:center;color:var(--t2);font-size:13px;padding:24px;">Aún no hay registros de cambios.</div>`:`<div class="card" style="padding:4px 0;">${hist.map(h=>`<div class="hi"><div class="av" style="background:${a.light};color:${a.color};">${h.name.split(" ").map(n=>n[0]).join("").slice(0,2)}</div><div style="flex:1;"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:3px;gap:8px;"><p style="font-size:14px;font-weight:500;">${esc(h.name)}</p><span style="font-size:12px;color:var(--t2);white-space:nowrap;">${fmtDate(h.date)}</span></div><p style="font-size:12px;color:var(--t2);margin-bottom:4px;">${esc(h.role)}</p><span class="ha" style="background:${a.light};color:${a.dark};">${esc(h.action)}</span></div></div>`).join("")}</div>`;
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${a.color};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">HISTORIAL DE CAMBIOS</p><h2 style="font-size:18px;">${esc(p.title)}</h2></div>${content}<div class="nr" style="justify-content:flex-start;"><button class="btn" onclick="go('ficha')">← Volver a la ficha</button></div>`;
+}
+
+function renderLogin(){
+  return`${renderAdminBar()}<div class="card lcd"><div style="text-align:center;margin-bottom:18px;"><div style="margin-bottom:16px;display:flex;justify-content:center;">${logoColor("primary")}</div><div class="lic" style="color:${BRAND.primary};">🔒</div><h2 style="font-size:18px;color:${BRAND.primary};margin-bottom:4px;">Acceso de administrador / área</h2><p style="font-size:12px;color:var(--t2);">Solo usuarios autorizados</p></div><p class="lbl" style="color:${BRAND.primary};">USUARIO</p><input type="text" id="loginUser" placeholder="usuario" onkeydown="if(event.key==='Enter')doLogin()"><p class="lbl" style="color:${BRAND.primary};">CONTRASEÑA</p><input type="password" id="loginPass" placeholder="••••••••" onkeydown="if(event.key==='Enter')doLogin()">${state.loginError?`<p style="font-size:12px;color:var(--d);background:var(--dl);padding:6px 10px;border-radius:6px;margin-bottom:10px;">${esc(state.loginError)}</p>`:""}<button class="btn bp" style="width:100%;margin-top:6px;" onclick="doLogin()">Ingresar</button><button class="btn" style="width:100%;margin-top:8px;" onclick="go('portada')">Cancelar</button></div>`;
+}
+
+// EDITOR simplificado con nodos
+function renderEdit(){
+  const e=state.editing;if(!e)return"";
+  const areaBtns=AREAS.map(a=>{const sel=e.areas.includes(a.id);return`<button class="ab2 ${sel?'sel':''}" style="${sel?`background:${a.color};`:""}" onclick="toggleArea('${a.id}')">${esc(a.label)}</button>`}).join("");
+
+  const nodesHtml=(e.nodes||[]).map((n,i)=>{
+    const sa=getArea(n.area||e.areas[0]);
+    const areaOpts=AREAS.map(a=>`<option value="${a.id}" ${(n.area||e.areas[0])===a.id?'selected':''}>${esc(a.label)}</option>`).join("");
+    const typeOpts=`<option value="step" ${n.type==="step"?'selected':''}>Paso</option><option value="decision" ${n.type==="decision"?'selected':''}>Decisión</option><option value="end" ${n.type==="end"?'selected':''}>Fin</option>`;
+
+    let typeSpecific="";
+    if(n.type==="step"){
+      const nextId=(n.next||[])[0]||"";
+      typeSpecific=`<input value="${esc(n.desc||'')}" placeholder="Descripción del paso" onchange="updateNode(${i},'desc',this.value)" style="margin-bottom:6px;"><label style="font-size:11px;color:var(--t2);">Siguiente nodo:</label><select onchange="updateNodeNext(${i},this.value)" style="margin-bottom:0;"><option value="">— Ninguno (fin) —</option>${e.nodes.filter(x=>x.id!==n.id).map(x=>`<option value="${x.id}" ${nextId===x.id?'selected':''}>${esc(x.title||x.id)}</option>`).join("")}</select>`;
+    }else if(n.type==="decision"){
+      const branches=n.branches||[];
+      typeSpecific=`${branches.map((b,bi)=>`<div style="display:flex;gap:6px;margin-bottom:4px;align-items:center;"><input value="${esc(b.label)}" placeholder="Etiqueta (SÍ/NO)" onchange="updateBranch(${i},${bi},'label',this.value)" style="flex:1;margin-bottom:0;"><select onchange="updateBranch(${i},${bi},'next',this.value)" style="flex:2;margin-bottom:0;"><option value="">— Fin —</option>${e.nodes.filter(x=>x.id!==n.id).map(x=>`<option value="${x.id}" ${b.next===x.id?'selected':''}>${esc(x.title||x.id)}</option>`).join("")}</select><button class="bd" onclick="removeBranch(${i},${bi})">✕</button></div>`).join("")}<button class="btn bs" style="margin-top:4px;" onclick="addBranch(${i})">+ Rama</button>`;
+    }
+
+    const canMoveUp = i > 0;
+    const canMoveDown = i < e.nodes.length - 1;
+
+    return`<div class="edit-node">
+      <div class="move-btns">
+        <button class="move-btn" onclick="moveNode(${i},-1)" ${!canMoveUp?'disabled':''} title="Mover arriba">▲</button>
+        <button class="move-btn" onclick="moveNode(${i},1)" ${!canMoveDown?'disabled':''} title="Mover abajo">▼</button>
+      </div>
+      <div class="nn" style="background:${sa.color};margin-top:4px;">${i+1}</div>
+      <div style="flex:1;">
+        <div style="display:flex;gap:6px;margin-bottom:6px;flex-wrap:wrap;">
+          <select onchange="updateNode(${i},'type',this.value)" style="width:auto;margin-bottom:0;">${typeOpts}</select>
+          <input value="${esc(n.title||'')}" placeholder="Título" onchange="updateNode(${i},'title',this.value)" style="flex:1;min-width:120px;margin-bottom:0;">
+          <select onchange="updateNode(${i},'area',this.value)" style="width:auto;margin-bottom:0;">${areaOpts}</select>
+        </div>
+        <input value="${esc(n.role||'')}" placeholder="Cargo responsable (ej: Jefe de ventas)" onchange="updateNode(${i},'role',this.value)" style="margin-bottom:6px;">
+        ${typeSpecific}
+      </div>
+      <button class="bd" onclick="removeNode(${i})" style="margin-top:4px;">✕</button>
+    </div>`;
+  }).join("");
+
+  const crit=e.criticos.map((c,i)=>`<div style="display:flex;gap:8px;align-items:center;margin-bottom:6px;"><p style="flex:1;font-size:13px;">${esc(c)}</p><button class="bd" onclick="removeCritico(${i})">✕</button></div>`).join("");
+
+  // Docs con área y archivo
+  const docs=e.docs.map((d,i)=>{
+    const docObj=typeof d==="string"?{name:d,area:null,file:null}:d;
+    const da=docObj.area?getArea(docObj.area):null;
+    return`<div class="doc-with-area"><div style="flex:1;min-width:0;"><p style="font-size:13px;font-weight:500;">📄 ${esc(docObj.name)}</p>${docObj.file?`<p style="font-size:11px;color:var(--p);">⬇ ${esc(docObj.file.name)}</p>`:''}</div>${da?`<span class="doc-area-tag" style="background:${da.light};color:${da.dark};">${esc(da.label)}</span>`:''}<button class="bd" onclick="removeDoc(${i})">✕</button></div>`;
+  }).join("");
+
+  const media=e.media.map((m,i)=>`<div style="display:flex;align-items:center;gap:10px;background:var(--su2);border-radius:8px;padding:8px 12px;margin-bottom:6px;">
+    <span style="font-size:16px;flex-shrink:0;">${mediaIcon(m.type)}</span>
+    <div style="flex:1;min-width:0;">
+      <p style="font-size:13px;font-weight:500;margin-bottom:1px;">${esc(m.label)}</p>
+      <p style="font-size:11px;color:var(--t2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${esc(m.url)}</p>
+    </div>
+    <span style="font-size:10px;color:var(--t3);background:var(--pl);padding:1px 7px;border-radius:20px;text-transform:uppercase;flex-shrink:0;">${m.type}</span>
+    <button class="bd" onclick="removeMedia(${i})" style="flex-shrink:0;">✕</button>
+  </div>`).join("");
+
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${BRAND.primary};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:3px;">EDITANDO FICHA</p><h2 style="font-size:18px;">${esc(e.title)||'Nueva ficha'}</h2></div><div class="card" style="margin-bottom:10px;"><p class="lbl" style="color:${BRAND.primary};">NOMBRE DEL PROCESO</p><input value="${esc(e.title)}" placeholder="Nombre..." onchange="updateField('title',this.value)" style="margin-bottom:0;"></div><div class="card" style="margin-bottom:10px;"><p class="lbl" style="color:${BRAND.primary};">ÁREAS PARTICIPANTES</p><div style="display:flex;gap:8px;flex-wrap:wrap;">${areaBtns}</div></div><div class="fg"><div class="card"><p class="lbl" style="color:${BRAND.primary};">OBJETIVO</p><textarea placeholder="¿Qué se busca lograr?" onchange="updateField('objetivo',this.value)">${esc(e.objetivo)}</textarea></div><div class="card"><p class="lbl" style="color:${BRAND.primary};">BENEFICIO</p><textarea placeholder="¿Por qué se hace?" onchange="updateField('beneficio',this.value)">${esc(e.beneficio)}</textarea></div></div><div class="card" style="margin-bottom:10px;"><p class="lbl" style="color:${BRAND.primary};">FLUJO · pasos, decisiones y fines</p><p style="font-size:11px;color:var(--t2);margin-bottom:10px;">Usa las flechas ▲▼ para reordenar. Cada nodo puede indicar el cargo responsable.</p>${nodesHtml}<button class="btn bs" onclick="addNode()">+ Agregar nodo</button></div><div class="card cc" style="margin-bottom:10px;"><p class="lbl" style="color:var(--dd);">⚠ PUNTOS CRÍTICOS</p>${crit}<div style="display:flex;gap:8px;"><input id="newCritico" placeholder="Agregar punto crítico..." style="flex:1;margin-bottom:0;" onkeydown="if(event.key==='Enter')addCritico()"><button class="btn bs" onclick="addCritico()">+ Agregar</button></div></div><div class="card" style="margin-bottom:10px;"><p class="lbl" style="color:${BRAND.primary};">DOCUMENTOS RELACIONADOS</p><div style="margin-bottom:8px;">${docs}</div><button class="btn bs" onclick="openDocSelector()">📋 Seleccionar del catálogo</button></div><div class="card" style="margin-bottom:10px;"><p class="lbl" style="color:${BRAND.primary};">RECURSOS Y EJEMPLOS</p>${media}<div style="background:var(--pl);border-radius:8px;padding:12px;margin-top:4px;">
+  <p style="font-size:12px;font-weight:500;color:${BRAND.primary};margin-bottom:8px;">+ Agregar recurso multimedia</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+    <div>
+      <p class="lbl" style="color:${BRAND.primary};">TIPO</p>
+      <select id="newMediaType" style="margin-bottom:0;" onchange="updateMediaHint(this.value)">
+        <option value="audio">🔊 Audio</option>
+        <option value="video">▶️ Video</option>
+        <option value="link">🔗 Link</option>
+      </select>
+    </div>
+    <div>
+      <p class="lbl" style="color:${BRAND.primary};">NOMBRE</p>
+      <input id="newMediaLabel" placeholder="Ej: Narración del proceso" style="margin-bottom:0;">
+    </div>
+  </div>
+  <p class="lbl" style="color:${BRAND.primary};">URL DEL RECURSO</p>
+  <input id="newMediaUrl" placeholder="https://..." style="margin-bottom:4px;">
+  <p id="mediaHint" style="font-size:11px;color:var(--t2);margin-bottom:8px;">Para audio o video en Google Drive: abre el archivo, clic en los 3 puntos → "Obtener enlace" → cambia a "Cualquier persona con el enlace".</p>
+  <button class="btn bp" style="width:100%;" onclick="addMedia()">+ Agregar recurso</button>
+</div></div><div class="nr"><button class="btn" onclick="cancelEdit()">← Cancelar</button><button class="btn ba" onclick="saveEdit()">Guardar ficha</button></div>`;
+}
+
+function renderProposals(){
+  const ad=!!state.currentUser;
+  // Filtrar según permisos: admin ve todo, usuario normal solo ve pendientes y aprobadas (nunca rechazadas)
+  const visibleProposals = ad ? state.proposals : state.proposals.filter(p => p.status !== "rejected");
+  const pending=visibleProposals.filter(p=>p.status==="pending");
+  const reviewed=visibleProposals.filter(p=>p.status!=="pending");
+
+  const rp=pr=>{const a=getArea(pr.area);const sc=pr.status==="pending"?"pp":pr.status==="approved"?"pa":"pr";
+    const st=pr.status==="pending"?(ad?"Pendiente":"En evaluación"):pr.status==="approved"?"Aceptada":"Rechazada";
+    const spClass = pr.status==="pending"?"sp spp":pr.status==="approved"?"sp spa":"sp spr";
+    const tl=pr.type==="nuevo"?"Nuevo proceso":"Mejora";
+    return`<div class="pc ${sc}"><div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:6px;flex-wrap:wrap;"><div style="display:flex;gap:6px;flex-wrap:wrap;"><span class="sp" style="background:${a.light};color:${a.dark};">${esc(a.label)}</span><span class="sp" style="background:var(--su2);color:var(--t2);">${tl}</span><span class="${spClass}">${st}</span></div><span style="font-size:11px;color:var(--t2);">${fmtDate(pr.date)}</span></div><p style="font-size:14px;font-weight:500;margin-bottom:6px;">${esc(pr.title)}</p>${ad?`<p style="font-size:12px;color:var(--t2);line-height:1.5;margin-bottom:8px;">${esc(pr.description)}</p><p style="font-size:11px;color:var(--t2);"><strong>${esc(pr.author)}</strong> · ${esc(pr.role)}</p>`:''}${ad&&pr.status==="pending"?`<div style="display:flex;gap:6px;margin-top:10px;"><button class="btn bs" style="background:var(--ok);color:#fff;border:none;" onclick="updateProposalStatus('${pr.id}','approved')">✓ Aprobar</button><button class="btn bs" style="background:var(--d);color:#fff;border:none;" onclick="updateProposalStatus('${pr.id}','rejected')">✕ Rechazar</button></div>`:""}</div>`};
+
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${BRAND.primary};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">RECURSOS ADICIONALES</p><h2 style="font-size:19px;">💡 Propuestas y mejoras</h2><p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">${ad?'Revisa, aprueba o rechaza las propuestas enviadas por el equipo.':'Envía tus ideas para mejorar procesos. Los administradores las revisan y responden.'}</p></div><button class="btn ba" style="width:100%;margin-bottom:16px;" onclick="openProposalForm()">+ Enviar una propuesta</button><p class="sl">${ad?`Pendientes de revisión (${pending.length})`:`En evaluación (${pending.length})`}</p><div style="margin-bottom:20px;">${pending.length===0?`<div class="card" style="text-align:center;color:var(--t2);font-size:13px;padding:24px;">${ad?'No hay propuestas pendientes.':'No hay propuestas en evaluación.'}</div>`:pending.map(rp).join("")}</div><p class="sl">${ad?`Revisadas (${reviewed.length})`:`Aceptadas (${reviewed.length})`}</p><div style="margin-bottom:16px;">${reviewed.length===0?`<div class="card" style="text-align:center;color:var(--t2);font-size:13px;padding:18px;">${ad?'Aún no hay propuestas revisadas.':'Aún no hay propuestas aceptadas.'}</div>`:reviewed.map(rp).join("")}</div><div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button></div>`;
+}
+
+function renderManual(){
+  const steps=[
+    {t:"Identifica el proceso",d:"Define claramente qué proceso vas a documentar. Debe ser algo repetible (por ejemplo: 'recepción de mercancía', 'atención de reclamos')."},
+    {t:"Define el objetivo",d:"Escribe en una oración qué se busca lograr con el proceso."},
+    {t:"Explica el beneficio",d:"Responde '¿por qué hacemos esto?'. Motiva a los trabajadores a seguir el proceso."},
+    {t:"Mapea el flujo completo",d:"Lista cada paso en orden. Si hay decisiones (ej: ¿aplica la devolución?), indica a dónde va cada rama (SÍ / NO). Si el proceso cruza áreas, indica qué área es responsable en cada paso."},
+    {t:"Identifica los puntos críticos",d:"Son las cosas que JAMÁS deben olvidarse o que, si fallan, generan problemas graves. Escríbelos como advertencias cortas."},
+    {t:"Selecciona los documentos del catálogo",d:"Usa los documentos estandarizados del catálogo (no inventes nombres nuevos). Así todos usamos la misma nomenclatura."},
+    {t:"Agrega recursos visuales",d:"Si tienes videos, imágenes o links de ejemplo, adjúntalos para que se entienda mejor en la práctica."},
+    {t:"Envía tu propuesta",d:"Si eres trabajador, envíala como 'propuesta'. Un administrador la revisará e incorporará al manual oficial si es correcta."},
+  ];
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${BRAND.primary};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">RECURSOS ADICIONALES</p><h2 style="font-size:19px;">📖 Cómo levantar un proceso</h2><p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">Guía paso a paso para documentar correctamente un proceso.</p></div><div class="card" style="margin-bottom:12px;"><p class="lbl" style="color:${BRAND.primary};">💡 ANTES DE EMPEZAR</p><p style="font-size:13px;line-height:1.6;">Un buen proceso documentado permite que <strong>cualquier persona nueva pueda ejecutarlo</strong> sin tener que preguntar a otros. Si al leer tu ficha alguien todavía tiene dudas, falta detalle.</p></div><div class="card" style="margin-bottom:12px;padding:4px 16px;">${steps.map((s,i)=>`<div class="ms"><div class="msn">${i+1}</div><div style="flex:1;"><p style="font-size:14px;font-weight:500;margin-bottom:4px;">${esc(s.t)}</p><p style="font-size:13px;color:var(--t2);line-height:1.5;">${esc(s.d)}</p></div></div>`).join("")}</div><div class="card" style="margin-bottom:12px;background:${BRAND.primaryLight};border-color:${BRAND.primary}33;"><p class="lbl" style="color:${BRAND.primary};">✅ CHECKLIST FINAL</p><p style="font-size:13px;color:${BRAND.primaryDark};line-height:1.8;">☐ El proceso tiene nombre claro<br>☐ El objetivo está en una oración<br>☐ Tiene flujo mapeado con pasos/decisiones<br>☐ Cada paso indica el área responsable<br>☐ Hay puntos críticos identificados<br>☐ Los documentos vienen del catálogo oficial<br>☐ Ha sido revisado por alguien que lo ejecuta</p></div><div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button><button class="btn ba" onclick="openProposalForm()">+ Enviar propuesta</button></div>`;
+}
+
+// Gestión de áreas (solo admin)
+// ============ GESTIÓN DE USUARIOS ============
+function renderUserManager(){
+  if(!isAdminUser()){state.screen="login";return renderLogin()}
+  const rows=USERS.map((u,i)=>{
+    const areaLabels=(u.areaIds||[]).map(id=>getArea(id).label).join(", ")||"—";
+    return`<div class="card" style="margin-bottom:8px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+      <div style="flex:1;min-width:160px;">
+        <p style="font-size:14px;font-weight:500;margin-bottom:2px;">${esc(u.name)}</p>
+        <p style="font-size:11px;color:var(--t2);">${esc(u.role)} · <strong>@${esc(u.user)}</strong></p>
+        <p style="font-size:11px;color:var(--t2);">${u.isAdmin?'<span style="color:var(--p);font-weight:500;">Admin</span>':'Área: '+esc(areaLabels)}</p>
+      </div>
+      <div style="display:flex;gap:6px;">
+        <button class="btn bs" onclick="openUserEditor(${i})">Editar</button>
+        <button class="bd" onclick="confirmDeleteUser(${i})" ${u.user===state.currentUser?.user?'disabled title="No puedes eliminarte a ti mismo"':''} style="${u.user===state.currentUser?.user?'opacity:.3;cursor:not-allowed;':''}">🗑</button>
+      </div>
+    </div>`;
+  }).join("");
+  return`${renderAdminBar()}${renderMini()}
+    <div class="fh" style="background:${BRAND.primary};">
+      <p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">CONFIGURACIÓN</p>
+      <h2 style="font-size:19px;">👥 Gestión de usuarios</h2>
+      <p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">Los usuarios y contraseñas se guardan de forma segura en Supabase, no en el archivo.</p>
+    </div>
+    <div style="margin-bottom:14px;">${rows||'<div class="card" style="text-align:center;color:var(--t2);padding:24px;">No hay usuarios cargados.</div>'}</div>
+    <button class="btn ba" style="width:100%;margin-bottom:16px;" onclick="openUserEditor(null)">+ Agregar usuario</button>
+    <div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button></div>`;
+}
+
+function openUserEditor(index){
+  const u=index!=null?JSON.parse(JSON.stringify(USERS[index])):{user:'',pass:'',name:'',role:'',isAdmin:false,areaIds:[]};
+  state.modal={type:'userEditor',data:{index,user:u}};
+  render();
+}
+
+async function saveUserEditor(){
+  const username=document.getElementById('uUser').value.trim().toLowerCase();
+  const pass=document.getElementById('uPass').value.trim();
+  const name=document.getElementById('uName').value.trim();
+  const role=document.getElementById('uRole').value.trim();
+  const isAdmin=document.getElementById('uIsAdmin').checked;
+  const index=state.modal?.data?.index;
+  if(!username||!name){alert('Usuario y nombre son obligatorios.');return}
+  if(index==null && !pass){alert('La contraseña es obligatoria para usuarios nuevos.');return}
+  if(USERS.some((u,i)=>u.user===username && i!==index)){alert('Ya existe un usuario con ese nombre de usuario.');return}
+  const areaCheckboxes=document.querySelectorAll('.uAreaChk:checked');
+  const areaIds=isAdmin?null:Array.from(areaCheckboxes).map(c=>c.value);
+  const finalPass=pass||(index!=null?USERS[index].pass:'');
+  const userData={user:username,pass:finalPass,name,role,isAdmin,areaIds:isAdmin?null:areaIds};
+  await dbSaveUser(userData);
+  if(index==null){USERS.push(userData);}else{USERS[index]=userData;}
+  state.modal=null;
+  render();
+}
+
+function confirmDeleteUser(i){
+  state.modal={type:'userDelete',data:{index:i}};
+  render();
+}
+
+async function deleteUser(i){
+  const u=USERS[i];
+  if(u){await dbDeleteUser(u.user);USERS.splice(i,1);}
+  state.modal=null;
+  render();
+}
+
+function renderUserEditorModal(){
+  const u=state.modal.data.user;
+  const index=state.modal.data.index;
+  const areaChecks=AREAS.map(a=>{
+    const checked=(u.areaIds||[]).includes(a.id);
+    return`<label style="display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px;"><input type="checkbox" class="uAreaChk" value="${a.id}" ${checked?'checked':''} style="width:auto;margin:0;"> ${esc(a.label)}</label>`;
+  }).join("");
+  return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()">
+    <h3 style="font-size:16px;margin-bottom:14px;">${index!=null?'Editar usuario':'Nuevo usuario'}</h3>
+    <p class="lbl" style="color:${BRAND.primary};">NOMBRE COMPLETO</p>
+    <input id="uName" value="${esc(u.name)}" placeholder="Ej: Felipe Cartagena">
+    <p class="lbl" style="color:${BRAND.primary};">CARGO / ROL</p>
+    <input id="uRole" value="${esc(u.role)}" placeholder="Ej: Controller de Gestión">
+    <p class="lbl" style="color:${BRAND.primary};">NOMBRE DE USUARIO</p>
+    <input id="uUser" value="${esc(u.user)}" placeholder="Ej: felipe" ${index!=null?'':''}  >
+    <p class="lbl" style="color:${BRAND.primary};">${index!=null?'NUEVA CONTRASEÑA (dejar en blanco para no cambiar)':'CONTRASEÑA'}</p>
+    <input type="password" id="uPass" placeholder="${index!=null?'Dejar en blanco para mantener actual':'Mínimo 4 caracteres'}">
+    <label style="display:flex;align-items:center;gap:8px;margin-bottom:12px;cursor:pointer;">
+      <input type="checkbox" id="uIsAdmin" ${u.isAdmin?'checked':''} onchange="render()" style="width:auto;margin:0;">
+      <span style="font-size:13px;">Es administrador (puede editar todo)</span>
+    </label>
+    <div id="uAreaSection" style="${u.isAdmin?'display:none':''}">
+      <p class="lbl" style="color:${BRAND.primary};">ÁREAS QUE PUEDE VER</p>
+      <div style="border:.5px solid var(--b);border-radius:8px;padding:4px 8px;max-height:160px;overflow-y:auto;margin-bottom:12px;">${areaChecks}</div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;">
+      <button class="btn" onclick="closeModal()">Cancelar</button>
+      <button class="btn ba" onclick="saveUserEditor()">Guardar</button>
+    </div>
+  </div></div>`;
+}
+
+function renderAreaManager(){
+  if(!isAdminUser()){state.screen="login";return renderLogin()}
+  const palette=["#1b2877","#254671","#3A5A8A","#4A6FA5","#5A7FB5","#6B8CBE","#7A97C4","#8AA4CB","#111A50","#1F3A5F"];
+  const items=AREAS.map((a,i)=>{const count=state.processes.filter(p=>p.areas.includes(a.id)).length;return`<div class="card" style="margin-bottom:8px;display:flex;gap:12px;align-items:center;">
+    <div class="ai" style="background:${a.light};color:${a.color};margin:0;width:40px;height:40px;font-size:15px;">${esc(a.icon)}</div>
+    <div style="flex:1;display:grid;grid-template-columns:1fr 80px 60px;gap:8px;align-items:center;">
+      <input value="${esc(a.label)}" onchange="updateAreaField(${i},'label',this.value)" placeholder="Nombre" style="margin-bottom:0;">
+      <input value="${esc(a.icon)}" onchange="updateAreaField(${i},'icon',this.value)" placeholder="Iniciales" maxlength="3" style="margin-bottom:0;">
+      <input type="color" value="${a.color}" onchange="updateAreaColor(${i},this.value)" style="margin-bottom:0;padding:2px;height:32px;cursor:pointer;">
+    </div>
+    <span style="font-size:11px;color:var(--t2);white-space:nowrap;">${count} proc.</span>
+    <button class="bd" onclick="confirmDeleteArea(${i})" ${count>0?'disabled title="No se puede eliminar: tiene procesos asociados"':''} style="${count>0?'opacity:.3;cursor:not-allowed;':''}">🗑</button>
+  </div>`}).join("");
+
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${BRAND.primary};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">CONFIGURACIÓN</p><h2 style="font-size:19px;">⚙ Gestión de áreas</h2><p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">Crea, edita o elimina áreas. Solo se pueden eliminar áreas sin procesos asociados.</p></div>
+  <div style="margin-bottom:14px;">${items}</div>
+  <button class="btn ba" style="width:100%;margin-bottom:16px;" onclick="addArea()">+ Agregar nueva área</button>
+  <div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button></div>`;
+}
+
+async function updateAreaField(i,f,v){
+  if(!v.trim())return;
+  AREAS[i][f]=v;
+  await dbSaveArea(AREAS[i],i);
+  render();
+}
+async function updateAreaColor(i,color){
+  AREAS[i].color=color;
+  AREAS[i].light=hexToLight(color);
+  AREAS[i].dark=hexToDark(color);
+  await dbSaveArea(AREAS[i],i);
+  render();
+}
+function hexToLight(hex){
+  const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  const mix=(c)=>Math.round(c+(255-c)*0.88);
+  return`#${mix(r).toString(16).padStart(2,'0')}${mix(g).toString(16).padStart(2,'0')}${mix(b).toString(16).padStart(2,'0')}`;
+}
+function hexToDark(hex){
+  const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  const dark=(c)=>Math.round(c*0.6);
+  return`#${dark(r).toString(16).padStart(2,'0')}${dark(g).toString(16).padStart(2,'0')}${dark(b).toString(16).padStart(2,'0')}`;
+}
+async function addArea(){
+  const id="area_"+Date.now();
+  const newArea={id,label:"Nueva área",icon:"N",color:"#5A7FB5",light:"#EEF2F9",dark:"#38598A"};
+  AREAS.push(newArea);
+  await dbSaveArea(newArea,AREAS.length-1);
+  render();
+}
+async function confirmDeleteArea(i){
+  const a=AREAS[i];
+  const count=state.processes.filter(p=>p.areas.includes(a.id)).length;
+  if(count>0){alert("No se puede eliminar un área que tiene procesos asociados.");return}
+  if(confirm(`¿Eliminar el área "${a.label}"?`)){
+    await dbDeleteArea(a.id);
+    AREAS.splice(i,1);
+    render();
+  }
+}
+
+// ============ MODALES ============
+function renderCatalogManager(){
+  if(!isAdminUser()){state.screen="login";return renderLogin()}
+  const items=state.catalog.map((doc,i)=>{const area=doc.area?getArea(doc.area):null;const docLink=doc.link||(doc.file?{url:doc.file.url||'#',name:doc.file.name||doc.name}:null);return`<div class="card" style="margin-bottom:8px;display:flex;gap:12px;align-items:center;"><div style="flex:1;"><p style="font-size:14px;font-weight:500;margin-bottom:4px;">${esc(doc.name)}</p><p style="font-size:11px;color:var(--t2);margin-bottom:4px;">${docLink?`<a href="${esc(docLink.url)}" target="_blank" style="color:var(--p);">🔗 ${esc(docLink.name||'Ver documento')}</a>`:'Sin link adjunto'}</p></div>${area?`<span class="doc-area-tag" style="background:${area.light};color:${area.dark};">${esc(area.label)}</span>`:''}<div style="display:flex;gap:6px;"><button class="btn bs" onclick="openCatalogDocEditor(${i})">Editar</button><button class="bd" onclick="confirmDeleteCatalogDoc(${i})">Eliminar</button></div></div>`}).join("");
+  return`${renderAdminBar()}${renderMini()}<div class="fh" style="background:${BRAND.primary};"><p style="font-size:11px;color:rgba(255,255,255,.7);margin-bottom:4px;">CONFIGURACIÓN</p><h2 style="font-size:19px;">📋 Catálogo de documentos</h2><p style="font-size:12px;color:rgba(255,255,255,.8);margin-top:6px;">Edita, elimina o agrega documentos estándar que se usan en los procesos.</p></div><div style="margin-bottom:14px;">${items}</div><button class="btn ba" style="width:100%;margin-bottom:16px;" onclick="openCatalogDocEditor(null)">+ Agregar documento</button><div class="nr"><button class="btn" onclick="go('portada')">← Inicio</button></div>`;
+}
+
+function openCatalogDocEditor(index){
+  const doc=index!=null?JSON.parse(JSON.stringify(state.catalog[index])):{id:null,name:'',area:AREAS[0]?.id||'',file:null};
+  state.modal={type:'catalogDocEditor',data:{index,doc}};
+  render();
+}
+
+async function saveCatalogDocEditor(){
+  const name=document.getElementById('catalogDocName').value.trim();
+  const area=document.getElementById('catalogDocArea').value;
+  const linkInput=document.getElementById('catalogDocLink');
+  const linkLabel=document.getElementById('catalogDocLinkLabel');
+  const index=state.modal?.data?.index;
+  const currentDoc=state.modal?.data?.doc;
+  if(!name){alert('Por favor ingresa el nombre del documento.');return}
+  if(state.catalog.some((d,i)=>d.name===name && i!==index)){
+    alert('Ya existe un documento con ese nombre.');
+    return;
+  }
+  // Manejar link
+  let linkData=currentDoc?.link||null;
+  const newUrl=linkInput?linkInput.value.trim():'';
+  const newLabel=linkLabel?linkLabel.value.trim():'';
+  if(newUrl){
+    linkData={url:normalizeLinkUrl(newUrl),name:newLabel||name};
+  }
+  // Compatibilidad con registros antiguos que tenían file
+  const savedDoc=await dbSaveCatalogDoc({id:currentDoc?.id||('doc_'+Date.now()),name,area,link:linkData,file:null});
+  if(index==null){state.catalog.push(savedDoc);} else {state.catalog[index]=savedDoc;}
+  state.modal=null;
+  render();
+}
+
+function removeCatalogFile(){
+  if(state.modal?.data?.doc){
+    state.modal.data.doc.link=null;
+    state.modal.data.doc.file=null;
+    render();
+  }
+}
+
+function confirmDeleteCatalogDoc(i){
+  state.modal={type:'catalogDocDelete',data:{index:i}};
+  render();
+}
+
+async function deleteCatalogDoc(i){
+  const doc=state.catalog[i];
+  if(doc){
+    await dbDeleteCatalogDoc(doc.id);
+    state.catalog.splice(i,1);
+  }
+  state.modal=null;
+  render();
+}
+
+function renderModal(){
+  if(!state.modal)return"";
+  const m=state.modal;
+  if(m.type==="catalogDocDelete"){
+    const doc=state.catalog[m.data.index];
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()"><div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;"><div style="width:40px;height:40px;border-radius:50%;background:var(--dl);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;">⚠</div><div><h3 style="font-size:16px;margin-bottom:4px;">Eliminar documento</h3><p style="font-size:13px;color:var(--t2);">Esta acción no se puede deshacer.</p></div></div><p style="font-size:13px;margin-bottom:16px;">¿Confirmas eliminar <strong>"${esc(doc.name)}"</strong> del catálogo?</p><div style="display:flex;gap:8px;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="bds" onclick="deleteCatalogDoc(${m.data.index})">Sí, eliminar</button></div></div></div>`;
+  }
+  if(m.type==="delete"){
+    const p=getProcess(m.data.id);
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()"><div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;"><div style="width:40px;height:40px;border-radius:50%;background:var(--dl);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;">⚠</div><div><h3 style="font-size:16px;margin-bottom:4px;">Eliminar proceso</h3><p style="font-size:13px;color:var(--t2);">Esta acción no se puede deshacer.</p></div></div><p style="font-size:13px;margin-bottom:16px;">¿Confirmas eliminar <strong>"${esc(p.title)}"</strong>?</p><div style="display:flex;gap:8px;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="bds" onclick="deleteProcess('${p.id}')">Sí, eliminar</button></div></div></div>`;
+  }
+  if(m.type==="docSelector"){
+    const e=state.editing;
+    const selectedNames=e.docs.map(d=>typeof d==="string"?d:d.name);
+    // Agrupar documentos por área
+    const byArea={};
+    state.catalog.forEach(d=>{const key=d.area||"_sin_area";if(!byArea[key])byArea[key]=[];byArea[key].push(d)});
+    let items="";
+    // Mostrar primero áreas con orden definido
+    [...AREAS.map(a=>a.id),"_sin_area"].forEach(aid=>{
+      if(!byArea[aid])return;
+      const areaLabel=aid==="_sin_area"?"Sin área asignada":getArea(aid).label;
+      const areaColor=aid==="_sin_area"?"#888780":getArea(aid).color;
+      items+=`<p style="font-size:11px;color:${areaColor};font-weight:600;margin:10px 0 4px;letter-spacing:.03em;text-transform:uppercase;">${esc(areaLabel)}</p>`;
+      byArea[aid].forEach(d=>{
+        const sel=selectedNames.includes(d.name);
+        items+=`<div class="dsi" onclick="toggleDoc('${esc(d.name).replace(/'/g,"\\'")}')"><div class="chk ${sel?'on':''}">${sel?'✓':''}</div><div style="flex:1;"><span style="font-size:13px;">${esc(d.name)}</span>${(d.link||(d.file))?`<span style="font-size:10px;color:var(--p);margin-left:8px;">🔗 con link</span>`:''}</div></div>`;
+      });
+    });
+
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()">
+      <h3 style="font-size:16px;margin-bottom:4px;">Catálogo de documentos</h3>
+      <p style="font-size:12px;color:var(--t2);margin-bottom:14px;">Selecciona los documentos. Los archivos adjuntos se muestran junto al documento.</p>
+      <div style="max-height:320px;overflow-y:auto;margin-bottom:14px;border:.5px solid var(--b);border-radius:8px;padding:4px 8px;">${items}</div>
+      <button class="btn bs" style="width:100%;margin-bottom:12px;" onclick="openAddCatalogDoc()">+ Agregar nuevo documento al catálogo</button>
+      <div style="display:flex;justify-content:flex-end;"><button class="btn bp" onclick="closeModal()">Listo</button></div>
+    </div></div>`;
+  }
+  if(m.type==="catalogDocEditor"){
+    const doc=state.modal.data.doc;
+    const areaOpts=AREAS.map(a=>`<option value="${a.id}" ${doc.area===a.id?'selected':''}>${esc(a.label)}</option>`).join("");
+    // Soporte para link nuevo y file antiguo (compatibilidad hacia atrás)
+    const existingLink=doc.link||(doc.file?{url:doc.file.url||'#',name:doc.file.name||doc.name}:null);
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()">
+      <h3 style="font-size:16px;margin-bottom:4px;">${doc.id?'Editar documento':'Nuevo documento'} en el catálogo</h3>
+      <p style="font-size:12px;color:var(--t2);margin-bottom:14px;">Actualiza el nombre, el área o el link de acceso.</p>
+      <p class="lbl" style="color:${BRAND.primary};">NOMBRE DEL DOCUMENTO</p>
+      <input id="catalogDocName" value="${esc(doc.name)}" placeholder="Ej: Formulario de depósito">
+      <p class="lbl" style="color:${BRAND.primary};">ÁREA QUE LO USA</p>
+      <select id="catalogDocArea">${areaOpts}</select>
+      <p class="lbl" style="color:${BRAND.primary};">LINK DEL DOCUMENTO (opcional)</p>
+      ${existingLink?`<p style="font-size:11px;color:var(--t2);margin-bottom:6px;">Link actual: <a href="${esc(existingLink.url)}" target="_blank" style="color:var(--p);">${esc(existingLink.name)}</a> <button class="btn bs" style="font-size:11px;padding:4px 8px;" onclick="removeCatalogFile()">Quitar</button></p>`:''}
+      <input id="catalogDocLink" placeholder="https://docs.google.com/... o cualquier link público" value="${existingLink?esc(existingLink.url):''}">
+      <p class="lbl" style="color:${BRAND.primary};">TEXTO QUE VEN LOS USUARIOS (opcional)</p>
+      <input id="catalogDocLinkLabel" placeholder="Ej: Ver formulario en Google Drive" value="${existingLink?esc(existingLink.name):''}">
+      <p style="font-size:11px;color:var(--t2);margin-bottom:14px;margin-top:-4px;">El link debe ser accesible para todos (Google Drive público, SharePoint con permisos, etc.).</p>
+      <div style="display:flex;gap:8px;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="btn ba" onclick="saveCatalogDocEditor()">Guardar</button></div>
+    </div></div>`;
+  }
+  if(m.type==="addCatalogDoc"){
+    const areaOpts=AREAS.map(a=>`<option value="${a.id}">${esc(a.label)}</option>`).join("");
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()">
+      <h3 style="font-size:16px;margin-bottom:4px;">Nuevo documento al catálogo</h3>
+      <p style="font-size:12px;color:var(--t2);margin-bottom:14px;">Los archivos se guardan en el navegador (para un uso real, conecta a un servidor).</p>
+      <p class="lbl" style="color:${BRAND.primary};">NOMBRE DEL DOCUMENTO</p>
+      <input id="catDocName" placeholder="Ej: Formulario de solicitud">
+      <p class="lbl" style="color:${BRAND.primary};">ÁREA QUE LO USA</p>
+      <select id="catDocArea">${areaOpts}</select>
+      <p class="lbl" style="color:${BRAND.primary};">ARCHIVO (opcional)</p>
+      <input type="file" id="catDocFile" style="margin-bottom:0;">
+      <p style="font-size:11px;color:var(--t2);margin-bottom:14px;margin-top:4px;">Puedes subir plantillas, instructivos o formatos para que sean fáciles de descargar.</p>
+      <div style="display:flex;gap:8px;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="btn ba" onclick="addCatalogDocWithFile()">Agregar</button></div>
+    </div></div>`;
+  }
+  if(m.type==="proposal"){
+    const areaOpts=AREAS.map(a=>`<option value="${a.id}">${esc(a.label)}</option>`).join("");
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()"><h3 style="font-size:16px;margin-bottom:4px;">Enviar propuesta</h3><p style="font-size:12px;color:var(--t2);margin-bottom:14px;">Sugiere una mejora o un nuevo proceso.</p><p class="lbl" style="color:${BRAND.primary};">TIPO</p><select id="prType"><option value="mejora">Mejora a proceso existente</option><option value="nuevo">Nuevo proceso</option><option value="propuesta_mejora">Propuesta de mejora</option></select><p class="lbl" style="color:${BRAND.primary};">ÁREA</p><select id="prArea">${areaOpts}</select><p class="lbl" style="color:${BRAND.primary};">TÍTULO</p><input id="prTitle" placeholder="Ej: Automatizar el registro de depósitos"><p class="lbl" style="color:${BRAND.primary};">DESCRIPCIÓN</p><textarea id="prDesc" placeholder="Describe tu propuesta..."></textarea><p class="lbl" style="color:${BRAND.primary};">TU NOMBRE</p><input id="prAuthor" placeholder="Nombre completo"><div style="display:flex;gap:8px;justify-content:flex-end;margin-top:8px;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="btn ba" onclick="submitProposal()">Enviar</button></div></div></div>`;
+  }
+  if(m.type==="userEditor"){return renderUserEditorModal();}
+  if(m.type==="userDelete"){
+    const u=USERS[m.data.index];
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()"><div style="display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;"><div style="width:40px;height:40px;border-radius:50%;background:var(--dl);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;">⚠</div><div><h3 style="font-size:16px;margin-bottom:4px;">Eliminar usuario</h3><p style="font-size:13px;color:var(--t2);">Esta acción no se puede deshacer.</p></div></div><p style="font-size:13px;margin-bottom:16px;">¿Confirmas eliminar al usuario <strong>"${esc(u?.name||u?.user)}"</strong>?</p><div style="display:flex;gap:8px;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button><button class="bds" onclick="deleteUser(${m.data.index})">Sí, eliminar</button></div></div></div>`;
+  }
+  if(m.type==="download"){
+    const info=m.data.mode==="process"?`del proceso "${esc(getProcess(m.data.id).title)}"`:`del área "${esc(getArea(m.data.id).label)}"`;
+    return`<div class="mb" onclick="closeModal(event)"><div class="md" onclick="event.stopPropagation()">
+      <h3 style="font-size:16px;margin-bottom:4px;">Descargar</h3>
+      <p style="font-size:12px;color:var(--t2);margin-bottom:18px;">Elige el formato de descarga ${info}.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;">
+        <button class="card" style="cursor:pointer;text-align:center;padding:20px 12px;border:1px solid var(--b);" onmouseenter="this.style.borderColor='${BRAND.primary}'" onmouseleave="this.style.borderColor='var(--b)'" onclick="doDownload('pdf')">
+          <div style="font-size:32px;margin-bottom:8px;">📄</div>
+          <p style="font-size:14px;font-weight:500;margin-bottom:3px;">PDF</p>
+          <p style="font-size:11px;color:var(--t2);">Para imprimir o compartir</p>
+        </button>
+        <button class="card" style="cursor:pointer;text-align:center;padding:20px 12px;border:1px solid var(--b);" onmouseenter="this.style.borderColor='${BRAND.primary}'" onmouseleave="this.style.borderColor='var(--b)'" onclick="doDownload('word')">
+          <div style="font-size:32px;margin-bottom:8px;">📝</div>
+          <p style="font-size:14px;font-weight:500;margin-bottom:3px;">Word</p>
+          <p style="font-size:11px;color:var(--t2);">Para editar en Office</p>
+        </button>
+      </div>
+      <div style="display:flex;justify-content:flex-end;"><button class="btn" onclick="closeModal()">Cancelar</button></div>
+    </div></div>`;
+  }
+  return"";
+}
+
+// ============ RENDER ============
+function render(){
+  const s=state.screen;
+  const map={cover:renderCover,portada:renderPortada,area:renderArea,ficha:renderFicha,history:renderHistory,login:renderLogin,edit:renderEdit,proposals:renderProposals,manual:renderManual,areaManager:renderAreaManager,catalogManager:renderCatalogManager,compliance:renderCompliance,proposalDetail:renderProposalDetail,userManager:renderUserManager};
+  const currentScroll=window.scrollY||document.documentElement.scrollTop||0;
+  document.getElementById("app").innerHTML=(map[s]||renderPortada)();
+  document.getElementById("modal").innerHTML=renderModal();
+  window.scrollTo(0,currentScroll);
+}
+
+// ============ ACCIONES ============
+function go(s){state.screen=s;render()}
+function goArea(id){state.activeAreaId=id;state.screen="area";render()}
+function goFicha(id){state.activeProcessId=id;state.screen="ficha";flowBranchSelection={};render()}
+
+function startEdit(id){
+  if(!isAdminUser()){state.screen="login";render();return}
+  const p=getProcess(id);
+  state.editing=JSON.parse(JSON.stringify(p));
+  if(!state.editing.nodes)state.editing.nodes=[];
+  state.screen="edit";render();
+}
+
+function addProcess(){
+  if(!isAdminUser()){state.screen="login";render();return}
+  state.editing={id:"p"+Date.now(),title:"",areas:[state.activeAreaId||"ventas"],updatedAt:TODAY,objetivo:"",beneficio:"",nodes:[],criticos:[],docs:[],media:[],history:[],position:state.processes.length};
+  state.activeProcessId=null;state.screen="edit";render();
+}
+
+function cancelEdit(){state.screen=state.activeProcessId?"ficha":"area";state.editing=null;render()}
+
+async function saveEdit(){
+  const e=state.editing;
+  if(!e.title.trim()){alert("El proceso debe tener un nombre.");return}
+  const isNew=!state.processes.find(p=>p.id===e.id);
+  const entry={date:TODAY,name:state.currentUser.name,role:state.currentUser.role,action:isNew?"Creación del proceso":"Actualización del proceso"};
+  const upd={...e,updatedAt:TODAY,history:[...(e.history||[]),entry],position:e.position!=null?e.position:state.processes.length};
+  await dbSaveProcess(upd);
+  if(isNew)state.processes.push(upd);
+  else{const i=state.processes.findIndex(p=>p.id===upd.id);state.processes[i]=upd}
+  normalizeProcesses();
+  state.activeProcessId=upd.id;state.screen="ficha";state.editing=null;render();
+}
+
+function confirmDelete(id){state.modal={type:"delete",data:{id}};render()}
+async function deleteProcess(id){
+  await dbDeleteProcess(id);
+  state.processes=state.processes.filter(p=>p.id!==id);
+  state.modal=null;state.activeProcessId=null;
+  state.screen=state.activeAreaId?"area":"portada";render();
+}
+
+async function doLogin(){
+  const u=document.getElementById("loginUser").value.trim();
+  const p=document.getElementById("loginPass").value;
+  const found=USERS.find(a=>a.user===u&&a.pass===p);
+  if(found){
+    state.currentUser={name:found.name,role:found.role,isAdmin:!!found.isAdmin,areaIds:found.areaIds||null};
+    state.loginError="";
+    state.screen="portada";
+  }else{
+    state.loginError="Usuario o contraseña incorrectos";
+  }
+  render();
+}
+async function doLogout(){
+  state.currentUser=null;
+  state.loginError="";
+  state.screen="cover";
+  render();
+}
+
+// EDITOR helpers
+function updateField(f,v){state.editing[f]=v}
+function toggleArea(id){
+  const sel=state.editing.areas.includes(id);
+  if(sel){if(state.editing.areas.length>1)state.editing.areas=state.editing.areas.filter(x=>x!==id)}
+  else state.editing.areas=[...state.editing.areas,id];
+  render();
+}
+function addNode(){
+  const id="n"+Date.now();
+  state.editing.nodes.push({id,type:"step",area:state.editing.areas[0],role:"",title:"Nuevo paso",desc:"",next:[]});
+  render();
+}
+function moveNode(i,dir){
+  const arr=state.editing.nodes;
+  const j=i+dir;
+  if(j<0||j>=arr.length)return;
+  [arr[i],arr[j]]=[arr[j],arr[i]];
+  render();
+}
+function removeNode(i){
+  const id=state.editing.nodes[i].id;
+  state.editing.nodes.splice(i,1);
+  state.editing.nodes.forEach(n=>{
+    if(n.next)n.next=n.next.filter(x=>x!==id);
+    if(n.branches)n.branches.forEach(b=>{if(b.next===id)b.next=""});
+  });
+  render();
+}
+function updateNode(i,f,v){
+  const n=state.editing.nodes[i];
+  n[f]=v;
+  if(f==="type"){
+    if(v==="decision"){n.branches=n.branches||[{label:"SÍ",next:""},{label:"NO",next:""}];delete n.next;delete n.desc}
+    else if(v==="step"){n.next=n.next||[];delete n.branches}
+    else if(v==="end"){delete n.next;delete n.branches;delete n.desc}
+  }
+  render();
+}
+function updateNodeNext(i,v){state.editing.nodes[i].next=v?[v]:[];render()}
+function updateBranch(i,bi,f,v){state.editing.nodes[i].branches[bi][f]=v;render()}
+function addBranch(i){state.editing.nodes[i].branches=state.editing.nodes[i].branches||[];state.editing.nodes[i].branches.push({label:"Opción",next:""});render()}
+function removeBranch(i,bi){state.editing.nodes[i].branches.splice(bi,1);render()}
+function removeCritico(i){state.editing.criticos.splice(i,1);render()}
+function addCritico(){const v=document.getElementById("newCritico").value;if(!v)return;state.editing.criticos.push(v);render()}
+function removeDoc(i){state.editing.docs.splice(i,1);render()}
+function removeMedia(i){state.editing.media.splice(i,1);render()}
+function updateMediaHint(type){
+  const el=document.getElementById("mediaHint");
+  if(!el)return;
+  const hints={
+    audio:'Para audio en Google Drive: abre el archivo → clic en los 3 puntos → "Obtener enlace" → "Cualquier persona". También puedes pegar un link directo a un .mp3.',
+    video:'Para YouTube: copia la URL del video (ej: https://youtu.be/xyz). Para Google Drive: abre el video → "Obtener enlace" → "Cualquier persona con el enlace".',
+    link:'Pega cualquier URL pública: página web, PDF, documento de Google, etc.'
+  };
+  el.textContent=hints[type]||hints.link;
+}
+function addMedia(){
+  const type=document.getElementById("newMediaType").value;
+  const label=document.getElementById("newMediaLabel").value.trim();
+  const url=document.getElementById("newMediaUrl").value.trim();
+  if(!label){alert("Por favor ingresa un nombre para el recurso.");return}
+  if(!url){alert("Por favor ingresa la URL del recurso.");return}
+  state.editing.media.push({type,label,url});render();
+}
+
+// Doc selector
+function openDocSelector(){state.modal={type:"docSelector"};render()}
+function toggleDoc(name){
+  const currentNames=state.editing.docs.map(d=>typeof d==="string"?d:d.name);
+  const i=currentNames.indexOf(name);
+  if(i>=0){
+    state.editing.docs.splice(i,1);
+  }else{
+    // Buscar el doc completo en el catálogo
+    const catalogDoc=state.catalog.find(d=>d.name===name);
+    if(catalogDoc){
+      state.editing.docs.push({name:catalogDoc.name,area:catalogDoc.area,link:catalogDoc.link||null,file:catalogDoc.file||null});
+    }else{
+      state.editing.docs.push({name,area:null,link:null,file:null});
+    }
+  }
+  render();
+}
+function openAddCatalogDoc(){
+  state.modal={type:"addCatalogDoc"};render();
+}
+async function addCatalogDocWithFile(){
+  const name=document.getElementById("catDocName").value.trim();
+  const area=document.getElementById("catDocArea").value;
+  const fileInput=document.getElementById("catDocFile");
+  if(!name){alert("Por favor ingresa el nombre del documento.");return}
+  if(state.catalog.find(d=>d.name===name)){alert("Ya existe un documento con ese nombre.");return}
+
+  let fileData=null;
+  if(fileInput.files&&fileInput.files[0]){
+    fileData=await dbUploadFile(fileInput.files[0]);
+  }
+
+  const newDoc={name,area,file:fileData};
+  const saved=await dbSaveCatalogDoc(newDoc);
+  state.catalog.push(saved);
+  state.modal={type:"docSelector"};
+  render();
+}
+
+// Modal
+function closeModal(e){if(e&&e.target!==e.currentTarget)return;state.modal=null;render()}
+
+// Propuestas
+function openProposalForm(){state.modal={type:"proposal"};render()}
+async function submitProposal(){
+  const type=document.getElementById("prType").value;
+  const area=document.getElementById("prArea").value;
+  const title=document.getElementById("prTitle").value.trim();
+  const description=document.getElementById("prDesc").value.trim();
+  const author=document.getElementById("prAuthor").value.trim();
+  if(!title||!description||!author){alert("Por favor completa todos los campos.");return}
+  const newProposal={id:"pr"+Date.now(),type,area,title,description,author,role:"",date:TODAY,status:"pending",
+    tracking:{phase:"recibida",meetings:[],involvedPersons:[],notes:"",targetDate:"",evaluationNotes:"",minutas:[]}};
+  await dbSaveProposal(newProposal);
+  state.proposals.unshift(newProposal);
+  state.modal=null;render();
+}
+async function updateProposalStatus(id,status){
+  const pr=state.proposals.find(p=>p.id===id);
+  if(pr){
+    pr.status=status;
+    await dbSaveProposal(pr);
+  }
+  render();
+}
+
+// ============ DESCARGAS ============
+function processToHTML(p){
+  const ma=getArea(p.areas[0]);
+  const chips=p.areas.map(aid=>esc(getArea(aid).label)).join(", ");
+  const nodesHtml=renderFlow(p.nodes||[], false);
+  const crit=p.criticos.length===0?"":`<div style="background:#FDECEA;border:1px solid #C62828;border-radius:8px;padding:12px;margin-bottom:12px;"><p style="color:#8B1919;font-weight:600;margin-bottom:8px;">⚠ PUNTOS CRÍTICOS</p>${p.criticos.map(c=>`<div style="background:#fff;border-left:4px solid #C62828;padding:8px;margin-bottom:6px;color:#8B1919;">${esc(c)}</div>`).join("")}</div>`;
+  const docs=p.docs.length===0?"":`<div style="margin-bottom:12px;"><p style="color:${ma.color};font-weight:600;font-size:11px;margin-bottom:6px;">DOCUMENTOS RELACIONADOS</p>${p.docs.map(d=>{const dObj=typeof d==="string"?{name:d,area:null}:d;const da=dObj.area?getArea(dObj.area):null;return`<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;padding:6px 10px;background:#f1efe8;border-radius:6px;"><span style="font-size:13px;">📄 ${esc(dObj.name)}</span>${da?`<span style="font-size:10px;padding:1px 7px;border-radius:20px;background:${da.light};color:${da.dark};text-transform:uppercase;">${esc(da.label)}</span>`:''}</div>`}).join("")}</div>`;
+  return`<div style="margin-bottom:30px;padding-bottom:20px;border-bottom:2px solid ${ma.color};page-break-after:always;">
+    <div style="background:${ma.color};color:#fff;padding:14px 18px;border-radius:8px;border-left:4px solid ${BRAND.accent};margin-bottom:12px;">
+      <p style="font-size:11px;opacity:.8;margin-bottom:4px;">FICHA DE PROCESO · ${chips}</p>
+      <h2 style="font-size:18px;">${esc(p.title)}</h2>
+      <p style="font-size:11px;opacity:.8;margin-top:4px;">Actualizado: ${fmtDate(p.updatedAt)}</p>
+    </div>
+    <p style="color:${ma.color};font-weight:600;font-size:11px;margin-bottom:4px;">OBJETIVO</p><p style="margin-bottom:10px;">${esc(p.objetivo)}</p>
+    <p style="color:${ma.color};font-weight:600;font-size:11px;margin-bottom:4px;">BENEFICIO</p><p style="margin-bottom:12px;">${esc(p.beneficio)}</p>
+    <p style="color:${ma.color};font-weight:600;font-size:11px;margin-bottom:6px;">FLUJO</p>
+    ${nodesHtml}
+    ${crit}
+    ${docs}
+  </div>`;
+}
+
+// Versión simplificada para Word (sin display flex, usa tablas)
+function processToWordHTML(p){
+  const ma=getArea(p.areas[0]);
+  const chips=p.areas.map(aid=>esc(getArea(aid).label)).join(", ");
+  const byId={};(p.nodes||[]).forEach(n=>byId[n.id]=n);
+  let idx=0;const indices={};
+  function walkIdx(n){if(!n||indices[n.id])return;if(n.type==="step"){idx++;indices[n.id]=idx}const nexts=n.type==="decision"?(n.branches||[]).map(b=>b.next):(n.next||[]);nexts.filter(Boolean).forEach(id=>walkIdx(byId[id]))}
+  if(p.nodes&&p.nodes[0])walkIdx(p.nodes[0]);
+
+  const flowRows=(p.nodes||[]).map(n=>{
+    const a=getArea(n.area);
+    const roleText=n.role?` · ${esc(n.role)}`:"";
+    if(n.type==="step"){
+      return`<tr><td style="background:${a.color};color:#fff;font-weight:bold;padding:6px;text-align:center;width:40px;">${indices[n.id]||"·"}</td><td style="padding:6px;background:${a.light};border-left:3px solid ${a.color};"><b>[${esc(a.label)}${roleText}]</b> ${esc(n.title)}<br><span style="color:#555;font-size:11px;">${esc(n.desc||"")}</span></td></tr>`;
+    }else if(n.type==="decision"){
+      const branches=(n.branches||[]).map(b=>{const next=byId[b.next];const nextLabel=next?(next.type==="end"?`Fin: ${esc(next.title||"")}`:`Paso ${indices[next.id]||"·"}: ${esc(next.title)}`):"Fin";return`<div>→ <b>${esc(b.label)}:</b> ${nextLabel}</div>`}).join("");
+      return`<tr><td style="background:${a.color};color:#fff;font-weight:bold;padding:6px;text-align:center;">?</td><td style="padding:6px;background:${a.light};border-left:3px solid ${a.color};"><b>[${esc(a.label)} · Decisión${roleText}]</b> ${esc(n.title)}<br><span style="font-size:11px;">${branches}</span></td></tr>`;
+    }else{
+      return`<tr><td style="padding:6px;text-align:center;border:2px solid ${a.color};color:${a.color};font-weight:bold;">FIN</td><td style="padding:6px;background:${a.light};"><b>[${esc(a.label)}${roleText}]</b> ${esc(n.title||"Fin")}</td></tr>`;
+    }
+  }).join("");
+
+  const crit=p.criticos.length===0?"":`<h3 style="color:#8B1919;margin-top:16px;">⚠ PUNTOS CRÍTICOS</h3><table style="width:100%;border-collapse:collapse;margin-bottom:12px;">${p.criticos.map(c=>`<tr><td style="background:#FDECEA;border-left:4px solid #C62828;padding:8px;color:#8B1919;">${esc(c)}</td></tr>`).join("")}</table>`;
+  const docs=p.docs.length===0?"":`<h3 style="color:${ma.color};margin-top:16px;">DOCUMENTOS RELACIONADOS</h3><table style="width:100%;border-collapse:collapse;">${p.docs.map(d=>{const dObj=typeof d==="string"?{name:d,area:null}:d;const da=dObj.area?getArea(dObj.area):null;return`<tr><td style="padding:6px;">📄 ${esc(dObj.name)}</td><td style="padding:6px;text-align:right;">${da?`<span style="padding:2px 8px;background:${da.light};color:${da.dark};font-size:10px;">${esc(da.label)}</span>`:''}</td></tr>`}).join("")}</table>`;
+
+  return`<div style="page-break-after:always;margin-bottom:30px;">
+    <table style="width:100%;background:${ma.color};color:#fff;border-collapse:collapse;margin-bottom:12px;"><tr><td style="padding:14px 18px;border-left:4px solid #edcc2a;">
+      <div style="font-size:11px;opacity:.8;">FICHA DE PROCESO · ${chips}</div>
+      <h2 style="font-size:18px;margin:4px 0;">${esc(p.title)}</h2>
+      <div style="font-size:11px;opacity:.8;">Actualizado: ${fmtDate(p.updatedAt)}</div>
+    </td></tr></table>
+    <h3 style="color:${ma.color};">OBJETIVO</h3><p>${esc(p.objetivo)}</p>
+    <h3 style="color:${ma.color};">BENEFICIO</h3><p>${esc(p.beneficio)}</p>
+    <h3 style="color:${ma.color};">FLUJO DEL PROCESO</h3>
+    <table style="width:100%;border-collapse:collapse;">${flowRows}</table>
+    ${crit}
+    ${docs}
+  </div>`;
+}
+
+function openDownloadMenu(mode,id){
+  state.modal={type:"download",data:{mode,id}};
+  render();
+}
+
+function downloadAsPDF(title,content){
+  // Usa ventana de impresión del navegador (guarda como PDF)
+  const html=`<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>${esc(title)}</title><style>
+    @page{size:A4;margin:15mm}
+    body{font-family:-apple-system,"Segoe UI",Arial,sans-serif;max-width:100%;margin:0;padding:0;color:#2c2c2a;line-height:1.5}
+    h1{color:${BRAND.primary};border-bottom:3px solid ${BRAND.accent};padding-bottom:10px;margin-bottom:20px}
+    h2,h3{font-weight:500}
+    .flow{padding:4px 0}
+    .node{display:flex;gap:12px;align-items:flex-start;padding:8px 0;page-break-inside:avoid}
+    .ncol{min-width:36px;display:flex;flex-direction:column;align-items:center}
+    .nn{width:32px;height:32px;border-radius:50%;color:#fff;font-size:12px;font-weight:500;display:flex;align-items:center;justify-content:center}
+    .nd{width:36px;height:36px;transform:rotate(45deg);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:600}
+    .nd span{transform:rotate(-45deg);font-size:10px}
+    .ne{width:32px;height:32px;border-radius:50%;border:2px solid;background:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:600}
+    .al{font-size:10px;font-weight:500;padding:1px 7px;border-radius:20px;display:inline-block;margin-bottom:4px;text-transform:uppercase}
+    .ncn{flex:1}
+    .branches{display:flex;gap:10px;margin-top:6px;flex-wrap:wrap}
+    .branch{flex:1;min-width:180px;background:#f1efe8;padding:8px 10px;border-left:3px solid;border-radius:6px}
+    .bh{font-size:11px;font-weight:600;margin-bottom:4px}
+    .bt{font-size:12px;color:#5f5e5a}
+    .line{display:none}
+    @media print{.no-print{display:none}}
+  </style></head><body>
+    <div class="no-print" style="background:#1b2877;color:#fff;padding:10px;margin-bottom:15px;border-radius:6px;text-align:center;">
+      <p style="margin-bottom:6px;">Para guardar como PDF: presiona <b>Ctrl+P</b> (o Cmd+P) y elige "Guardar como PDF"</p>
+      <button onclick="window.print()" style="background:#edcc2a;color:#111A50;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-weight:500;">🖨 Imprimir / Guardar PDF</button>
+    </div>
+    <h1>${esc(title)}</h1>
+    <p style="color:#5f5e5a;font-size:12px;margin-bottom:30px;">IMAGEM · Manual de procesos · Generado el ${fmtDate(TODAY)}</p>
+    ${content}
+  </body></html>`;
+  const w=window.open("","_blank");
+  if(!w){alert("Por favor permite las ventanas emergentes para descargar el PDF.");return}
+  w.document.write(html);
+  w.document.close();
+  setTimeout(()=>{try{w.print()}catch(e){}},500);
+}
+
+function downloadAsWord(title,content){
+  // Genera un .doc que Word puede abrir
+  const html=`<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta charset="utf-8"><title>${esc(title)}</title><!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:Zoom>100</w:Zoom></w:WordDocument></xml><![endif]--><style>
+    body{font-family:Calibri,Arial,sans-serif;color:#2c2c2a;line-height:1.5}
+    h1{color:${BRAND.primary};border-bottom:3px solid ${BRAND.accent};padding-bottom:10px}
+    h2,h3{font-weight:500;color:${BRAND.primary}}
+    table{border-collapse:collapse;width:100%}
+  </style></head><body>
+    <h1>${esc(title)}</h1>
+    <p style="color:#5f5e5a;font-size:12px;">IMAGEM · Manual de procesos · Generado el ${fmtDate(TODAY)}</p>
+    <hr>
+    ${content}
+  </body></html>`;
+  const blob=new Blob(['\ufeff',html],{type:"application/msword"});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");
+  a.href=url;
+  a.download=title.replace(/[^a-z0-9áéíóúñ ]/gi,"_")+".doc";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function doDownload(format){
+  const m=state.modal.data;
+  if(m.mode==="process"){
+    const p=getProcess(m.id);if(!p)return;
+    const title=`Proceso - ${p.title}`;
+    if(format==="pdf")downloadAsPDF(title,processToHTML(p));
+    else downloadAsWord(title,processToWordHTML(p));
+  }else if(m.mode==="area"){
+    const a=getArea(m.id);
+    const list=state.processes.filter(p=>p.areas.includes(m.id));
+    if(list.length===0)return;
+    const title=`Procesos del área - ${a.label}`;
+    if(format==="pdf")downloadAsPDF(title,list.map(processToHTML).join(""));
+    else downloadAsWord(title,list.map(processToWordHTML).join("<br><br>"));
+  }
+  state.modal=null;render();
+}
+
+function downloadProcess(id){openDownloadMenu("process",id)}
+function downloadArea(aid){openDownloadMenu("area",aid)}
+
+// ============ INIT ============
+async function init(){
+  document.getElementById("app").innerHTML='<div style="display:flex;align-items:center;justify-content:center;padding:60px;color:#5f5e5a;font-size:14px;"><div style="width:20px;height:20px;border:3px solid #ddd;border-top-color:#1b2877;border-radius:50%;animation:spin 1s linear infinite;margin-right:12px;"></div>Cargando manual...</div>';
+
+  const [processes,proposals,areas,catalog,users]=await Promise.all([
+    dbGetProcesses(),
+    dbGetProposals(),
+    dbGetAreas(),
+    dbGetCatalog(),
+    dbGetUsers(),
+  ]);
+
+  if(processes.length>0) state.processes=processes;
+  if(proposals.length>0) state.proposals=proposals;
+  if(areas.length>0) AREAS.splice(0,AREAS.length,...areas);
+  if(catalog.length>0) state.catalog=catalog;
+  if(users.length>0){
+    USERS.splice(0,USERS.length,...users.map(u=>({
+      user:u.username,
+      pass:u.pass,
+      name:u.name,
+      role:u.role,
+      isAdmin:!!u.is_admin,
+      areaIds:u.area_ids||null
+    })));
+  }
+
+  render();
+}
+
+init();
+</script>
+
+
+</body></html>
