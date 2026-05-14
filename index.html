@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)file:///C:/Users/image/Downloads/index_7.html -->
+<!-- saved from url=(0045)file:///C:/Users/image/Downloads/index_8.html -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -172,7 +172,7 @@ const BRAND={primary:"#1b2877",secondary:"#254671",light:"#9fadbc",accent:"#edcc
 // ============ SUPABASE CONFIG ============
 const SUPABASE_URL = 'https://zjticidyirudtwpwoyrx.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqdGljaWR5aXJ1ZHR3cHdveXJ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczOTY4OTYsImV4cCI6MjA5Mjk3Mjg5Nn0.jVEizM9ss801cZNCSvfRwNbdYyeGqlXa-84BTVO1b8M';
-const sb = (supabase.createClient||window.supabase?.createClient)(SUPABASE_URL, SUPABASE_KEY);
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ============ DB HELPERS ============
 async function dbGetProcesses(){
